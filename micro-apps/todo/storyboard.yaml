@@ -1,0 +1,86 @@
+app:
+  name: Todo
+  id: todo
+  homepage: /todo
+imports:
+- '@next-bricks/basic-bricks'
+- '@next-bricks/forms'
+routes:
+- path: ${APP.homepage}
+  context:
+    - name: todoList
+      value: '<% LOCAL_STORAGE.getItem("todo-list") ?? [] %>'
+  bricks:
+  - brick: basic-bricks.micro-view
+    properties:
+      pageTitle: My Todos
+    slots:
+      content:
+        type: bricks
+        bricks:
+        - brick: basic-bricks.general-card
+          if: '<% CTX.todoList.length > 0 %>'
+          slots:
+            content:
+              type: bricks
+              bricks:
+              - brick: basic-bricks.list-container
+                properties:
+                  data: '<% CTX.todoList.map((thing, index) => ({ thing, index })) %>'
+                  useBrick:
+                    brick: div
+                    transform:
+                      textContent: '<% `#${DATA.index + 1} ${DATA.thing}` %>'
+                    events:
+                      dblclick:
+                      - action: localStorage.setItem
+                        args:
+                        - todo-list
+                        - '<% CTX.todoList.filter((_, i) => i !== DATA.index) %>'
+                      - action: history.reload
+              - brick: div
+                properties:
+                  textContent: 'Tips: double click a todo to mark it as DONE ✔️'
+                  style:
+                    color: gray
+                    marginTop: 1em
+
+        - brick: basic-bricks.general-card
+          slots:
+            content:
+              type: bricks
+              bricks:
+              - brick: forms.general-form
+                properties:
+                  layout: vertical
+                  id: todoForm
+                slots:
+                  items:
+                    type: bricks
+                    bricks:
+                    - brick: forms.general-input
+                      properties:
+                        label: What needs to be done?
+                        name: thing
+                        required: true
+                        message:
+                          required: Nothing to do?
+                      events:
+                        general.input.press.enter:
+                          target: '#todoForm'
+                          method: validate
+                    - brick: forms.general-buttons
+                      properties:
+                        submitText: '<% `Add #${CTX.todoList.length + 1}` %>'
+                        submitType: default
+                events:
+                  validate.success:
+                  - action: console.log
+                  - action: localStorage.setItem
+                    args:
+                    - todo-list
+                    - '<% [...CTX.todoList, EVENT.detail.thing] %>'
+                  - action: history.reload
+  menu:
+    sidebarMenu:
+      defaultCollapsed: true

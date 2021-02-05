@@ -1,0 +1,29 @@
+app:
+  name: Home
+  id: home
+  homepage: /
+routes:
+- path: ${APP.homepage}
+  bricks:
+  - brick: basic-bricks.micro-view
+    properties:
+      pageTitle: Hello World
+    slots:
+      content:
+        type: bricks
+        bricks:
+        - brick: basic-bricks.general-card
+          slots:
+            content:
+              type: bricks
+              bricks:
+              - brick: basic-bricks.general-button
+                properties:
+                  buttonName: Check My Todos
+                events:
+                  general.button.click:
+                    action: history.push
+                    args: [/todo]
+  menu:
+    sidebarMenu:
+      defaultCollapsed: true
