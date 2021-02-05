@@ -14,10 +14,7 @@
     "build": "cross-env NODE_ENV='production' webpack --config webpack.config.js",
     "postbuild": "node scripts/post-build.js",
     "test": "cross-env NODE_ENV='test' jest",
-    "test:ci": "cross-env NODE_ENV='test' CI=true jest",
-    "prepack:tar": "node scripts/generate-version-file.js && npm run build",
-    "pack:tar": "npm pack",
-    "postpack:tar": "node scripts/rename-tar-package.js"
+    "test:ci": "cross-env NODE_ENV='test' CI=true jest"
   },
   "sideEffects": true
 }

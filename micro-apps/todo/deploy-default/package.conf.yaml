@@ -1,6 +1,0 @@
-install_path: /usr/local/easyops/applications/todo-NA
-user: easyops:easyops
-dependencies:
-  - name: brick_next
-    version: '^2.0.0'
-    local_deploy: true
