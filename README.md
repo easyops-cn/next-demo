@@ -27,10 +27,11 @@ Run `yarn serve`, and open `http://localhost:8081/` in your browser. That's it!
 
 ### Development with Micro-Apps
 
-We have preset two micro-apps for you out of the box:
+We have preset three micro-apps for you out of the box:
 
 - Home: `./micro-apps/home/storyboard.yaml`
 - Todo: `./micro-apps/todo/storyboard.yaml`
+- Car Store: `./micro-apps/car-store/storyboard.yaml`
 
 Feel free to modify any content in these YAMLs while `yarn serve` is running, the webpage will auto refresh when these YAMLs are changed.
 
@@ -66,6 +67,7 @@ _Brick Next_ 是优维科技的新一代前端框架，旨在提供一套高度�
 
 - Home: `./micro-apps/home/storyboard.yaml`
 - Todo: `./micro-apps/todo/storyboard.yaml`
+- Car Store: `./micro-apps/car-store/storyboard.yaml`
 
 请尝试任意修改这些 YAML 文件，并保持 `yarn serve` 处于运行状态，页面将会在文件改动后自动更新。
 

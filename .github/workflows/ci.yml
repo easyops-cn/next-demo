@@ -43,11 +43,11 @@ jobs:
     - run: yarn test:ci
 
     # Uncomment this section to enable coveralls report.
-    - name: Coveralls
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        path-to-lcov: ./.coverage/lcov.info
+    # - name: Coveralls
+    #   uses: coverallsapp/github-action@master
+    #   with:
+    #     github-token: ${{ secrets.GITHUB_TOKEN }}
+    #     path-to-lcov: ./.coverage/lcov.info
 
     - uses: easyops-cn/actions-next-publish-from-tags@master
       with:

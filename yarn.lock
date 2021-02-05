@@ -2011,25 +2011,20 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@next-bricks/basic-bricks@^1.103.2":
-  version "1.103.2"
-  resolved "https://registry.npm.taobao.org/@next-bricks/basic-bricks/download/@next-bricks/basic-bricks-1.103.2.tgz#b7643230368d65b5d931a1bef0d00da45eb0b757"
-  integrity sha1-t2QyMDaNZbXZMaG+8NANpF6wt1c=
+"@next-bricks/basic-bricks@^1.104.0":
+  version "1.104.0"
+  resolved "https://registry.npm.taobao.org/@next-bricks/basic-bricks/download/@next-bricks/basic-bricks-1.104.0.tgz#a9dbf54474a9663d50796df3bf6944393053578e"
+  integrity sha1-qdv1RHSpZj1QeW3zv2lEOTBTV44=
 
-"@next-bricks/forms@^1.150.2":
-  version "1.150.2"
-  resolved "https://registry.npm.taobao.org/@next-bricks/forms/download/@next-bricks/forms-1.150.2.tgz#7ddd5147cfe8e41d5f907e92afa70dcd0538b195"
-  integrity sha1-fd1RR8/o5B1fkH6Sr6cNzQU4sZU=
+"@next-bricks/forms@^1.151.0":
+  version "1.151.0"
+  resolved "https://registry.npm.taobao.org/@next-bricks/forms/download/@next-bricks/forms-1.151.0.tgz#a21cb4e0227795637bc04741d24837e78ceb6213"
+  integrity sha1-ohy04CJ3lWN7wEdB0kg354zrYhM=
 
 "@next-bricks/general-auth@^1.4.11":
   version "1.4.11"
   resolved "https://registry.npm.taobao.org/@next-bricks/general-auth/download/@next-bricks/general-auth-1.4.11.tgz#2d2f48c425da94b8c47bb6fc265326f62524b84d"
   integrity sha1-LS9IxCXalLjEe7b8JlMm9iUkuE0=
-
-"@next-bricks/presentational-bricks@^1.169.0":
-  version "1.169.0"
-  resolved "https://registry.npm.taobao.org/@next-bricks/presentational-bricks/download/@next-bricks/presentational-bricks-1.169.0.tgz#58b2ff3cfcbfbb946f7f2ebfaae3ac8ee4cfbc06"
-  integrity sha1-WLL/PPy/u5Rvfy6/quOsjuTPvAY=
 
 "@next-core/babel-preset-next@^0.6.20":
   version "0.6.20"

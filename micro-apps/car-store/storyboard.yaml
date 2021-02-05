@@ -1,0 +1,42 @@
+app:
+  name: Car Store
+  id: car-store
+  homepage: /car-store
+imports:
+- '@next-bricks/basic-bricks'
+- '@next-bricks/forms'
+- '@next-bricks/car-store'
+routes:
+- path: ${APP.homepage}
+  bricks:
+  - brick: basic-bricks.micro-view
+    properties:
+      pageTitle: Car Store
+    slots:
+      content:
+        type: bricks
+        bricks:
+        - brick: car-store.running-car
+          properties:
+            id: car
+            print: Cyan
+
+        - brick: forms.general-radio
+          properties:
+            label: Car print
+            options:
+            - DeepSkyBlue
+            - Cyan
+            - LightCoral
+            - Orange
+            type: button
+            value: Cyan
+          events:
+            general.radio.change:
+              target: '#car'
+              properties:
+                print: '<% EVENT.detail %>'
+
+  menu:
+    sidebarMenu:
+      defaultCollapsed: true

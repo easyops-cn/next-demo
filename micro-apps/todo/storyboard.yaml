@@ -81,6 +81,7 @@ routes:
                     - todo-list
                     - '<% [...CTX.todoList, EVENT.detail.thing] %>'
                   - action: history.reload
+
   menu:
     sidebarMenu:
       defaultCollapsed: true
