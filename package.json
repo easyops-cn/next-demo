@@ -1,8 +1,8 @@
 {
-  "name": "YOUR-REPOSITORY",
+  "name": "next-demo",
   "private": true,
   "license": "UNLICENSED",
-  "homepage": "https://github.com/easyops-cn/YOUR-REPOSITORY",
+  "homepage": "https://github.com/easyops-cn/next-demo",
   "scripts": {
     "prepare": "lerna bootstrap",
     "start": "lerna run start",
@@ -22,8 +22,12 @@
     "extract": "dev-dependencies-extract"
   },
   "browserslist": {
-    "development": ["extends @next-core/browserslist-config-next/development"],
-    "production": ["extends @next-core/browserslist-config-next/production"]
+    "development": [
+      "extends @next-core/browserslist-config-next/development"
+    ],
+    "production": [
+      "extends @next-core/browserslist-config-next/production"
+    ]
   },
   "devDependencies": {
     "@ant-design/compatible": "^1.0.8",
@@ -77,11 +81,18 @@
     "react-i18next": "^11.8.5",
     "react-transition-group": "^4.4.1"
   },
-  "workspaces": ["bricks/*", "libs/*", "micro-apps/*", "templates/*"],
+  "workspaces": [
+    "bricks/*",
+    "libs/*",
+    "micro-apps/*",
+    "templates/*"
+  ],
   "resolutions": {
     "@types/react": "^16.9.56",
     "lodash": "^4.17.20",
     "@next-core/brick-types": "^2.17.0"
   },
-  "easyops": { "dev-dependencies": "1.2.33" }
+  "easyops": {
+    "dev-dependencies": "1.2.33"
+  }
 }

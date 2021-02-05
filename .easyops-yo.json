@@ -1,3 +1,5 @@
 {
-  "usePublicScope": true
+  "usePublicScope": true,
+  "standalone": true,
+  "noPostBuildMicroApps": true
 }
