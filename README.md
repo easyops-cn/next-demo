@@ -42,6 +42,8 @@ On the other hand, advanced developers can also create new bricks for complex bu
 
 ## Getting Started
 
+You can just clone or fork this repository, or click the `Use this template` button on GitHub to create your own repository, to play with this demo.
+
 ### Pre-requests
 
 Make sure you have installed [Node.js](https://nodejs.org/) v12+ and [Yarn](https://classic.yarnpkg.com/) 1.x (Classic).
@@ -70,6 +72,12 @@ E.g., change the `pageTile` to `Hola Mundo`.
 ### Development with Bricks
 
 Todo...
+
+## License
+
+This demo is [MIT licensed](./LICENSE).
+
+However, [the core of Easy Bricks](https://github.com/easyops-cn/next-core) is [GPL licensed](https://github.com/easyops-cn/next-core/blob/master/LICENSE).
 
 ## 简体中文
 
@@ -110,6 +118,8 @@ _Easy Bricks_ （以前称为 _Brick Next_ ）是优维科技的新一代前端�
 
 ## 开始
 
+您可以选择克隆或 fork 本仓库，或者点击 GitHub 上的 `Use this template` 来创建您自己的仓库，以体验这个 demo。
+
 ### 环境要求
 
 请先确认您已经安装了 [Node.js](https://nodejs.org/) v12+ 以及 [Yarn](https://classic.yarnpkg.com/) 1.x (Classic)。
@@ -136,6 +146,12 @@ _Easy Bricks_ （以前称为 _Brick Next_ ）是优维科技的新一代前端�
 ### 开发构件
 
 未完待续...
+
+## 许可协议
+
+本演示项目使用 [MIT 协议](./LICENSE)。
+
+但是 [Easy Bricks 的核心](https://github.com/easyops-cn/next-core)使用 [GPL 协议](https://github.com/easyops-cn/next-core/blob/master/LICENSE)。
 
 <!--
 ## Documentation
