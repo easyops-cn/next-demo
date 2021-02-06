@@ -16,10 +16,11 @@ routes:
       content:
         type: bricks
         bricks:
-        - brick: car-store.running-car
+        - brick: car-store.car-for-sale
           properties:
             id: car
             print: Cyan
+            running: true
 
         - brick: forms.general-radio
           properties:
@@ -36,6 +37,20 @@ routes:
               target: '#car'
               properties:
                 print: '<% EVENT.detail %>'
+
+        - brick: forms.general-radio
+          properties:
+            label: Test Drive
+            options:
+            - Start
+            - Stop
+            type: button
+            value: Start
+          events:
+            general.radio.change:
+              target: '#car'
+              properties:
+                running: '<% EVENT.detail === "Start" %>'
 
   menu:
     sidebarMenu:

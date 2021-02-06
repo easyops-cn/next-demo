@@ -1,11 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrickWrapper, UpdatingElement, property } from "@next-core/brick-kit";
-import { RunningCar } from "./RunningCar";
+import {
+  BrickWrapper,
+  UpdatingElement,
+  property,
+  method,
+} from "@next-core/brick-kit";
+import { CarForSale } from "./CarForSale";
 
-export class RunningCarElement extends UpdatingElement {
+export class CarForSaleElement extends UpdatingElement {
   @property()
   print: string;
+
+  @property({
+    type: Boolean,
+  })
+  running: boolean;
 
   connectedCallback(): void {
     // Don't override user's style settings.
@@ -25,7 +35,7 @@ export class RunningCarElement extends UpdatingElement {
     if (this.isConnected) {
       ReactDOM.render(
         <BrickWrapper>
-          <RunningCar print={this.print} />
+          <CarForSale print={this.print} running={this.running} />
         </BrickWrapper>,
         this
       );
@@ -33,4 +43,4 @@ export class RunningCarElement extends UpdatingElement {
   }
 }
 
-customElements.define("car-store.running-car", RunningCarElement);
+customElements.define("car-store.car-for-sale", CarForSaleElement);

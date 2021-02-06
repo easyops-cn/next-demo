@@ -8,9 +8,9 @@ const unmountComponentAtNode = jest
   .spyOn(ReactDOM, "unmountComponentAtNode")
   .mockImplementation(() => null);
 
-describe("car-store.running-car", () => {
+describe("car-store.car-for-sale", () => {
   it("should create a custom element", () => {
-    const element = document.createElement("car-store.running-car");
+    const element = document.createElement("car-store.car-for-sale");
     expect(spyOnRender).not.toBeCalled();
     document.body.appendChild(element);
     expect(spyOnRender).toBeCalled();
