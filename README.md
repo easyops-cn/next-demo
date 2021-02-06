@@ -1,13 +1,44 @@
-# A Demo Repo of Brick Next
+# A Demo Repo of Easy Bricks
 
 [![CI Status](https://github.com/easyops-cn/next-demo/workflows/CI/badge.svg?event=push)](https://github.com/easyops-cn/next-demo/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/easyops-cn/next-demo/badge.svg?branch=master)](https://coveralls.io/github/easyops-cn/next-demo?branch=master)
 
-[English](#a-demo-repo-of-brick-next) | [简体中文](#简体中文)
+[English](#readme) | [简体中文](#简体中文)
 
-_Brick Next_ is a front-end framework to build a highly-pluggable and highly-configurable enterprise user interface solution, a.k.a a low-code framework, which scales and for enterprise.
+## Introduction
 
-This repository is a server-free demo that uses Brick Next. In this demo, your can build your micro-apps by writing YAMLs. The more powerful visualization _Next Builder_ is just on the way to public soon.
+_Easy Bricks_ (formerly named _Brick Next_) is a front-end framework to build a highly-pluggable and highly-configurable enterprise user interface solution, a.k.a a low-code framework, which scales and for enterprise. The core repository of Easy Bricks is at [easyops-cn/next-core](https://github.com/easyops-cn/next-core).
+
+The front-end of UWinTech's brand new DevOps platform _EasyOps_ is fully built on Easy Bricks. Hundreds of micro-apps are rapidly and continuously delivered to our enterprise clients. Building enterprise productivity tools has never been easier.
+
+This repository is a server-free demo that uses Easy Bricks. In this demo, your can build your own micro-apps by configuring YAMLs. The more powerful visualization _Easy MA Builder_ is just on the way to public soon.
+
+## Easy Bricks Under the Hood
+
+```
++------------------------------+      +--------------------+
+|        Brick Package         |      |     Micro App      |
+| +---------+  +---------+     | ...  |  +--------------+  | ...
+| | Brick A |  | Brick B | ... |      |  |  Storyboard  |  |
+| +---------+  +---------+     |      |  +--------------+  |
++------------------------------+      +--------------------+
+
++---------------------------------------------------------------+
+|                      Easy Bricks Core                         |
++---------------------------------------------------------------+
+```
+
+- _Brick packages_ define reusable _bricks_. Bricks are similar to components, but with more encapsulations, and can be easily consumed by declarations without programming. Actually bricks are [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Bricks can be business-free small UI components, and can be business-ful large components too.
+
+- _Micro-apps_ are assembled from bricks by declaring a _Storyboard_. Storyboards can be defined by a YAML or JSON, or be made from a visualization tool.
+
+- _The core of Easy Bricks_ is responsible for parsing storyboards of micro-apps and mounting bricks accordingly.
+
+- All brick packages and micro-apps are independently deployable. They work as plugins. Check out the real world examples of [brick packages](https://github.com/easyops-cn/next-basics/tree/master/bricks) and [micro-apps](https://github.com/easyops-cn/next-basics/tree/master/micro-apps) in [easyops-cn/next-basics](https://github.com/easyops-cn/next-basics).
+
+By using Easy Bricks, which provides hundreds of bricks out of the bricks, users with limited programing skills can build an app in days even in hours, from scratch.
+
+On the other hand, advanced developers can also create new bricks for complex businesses.
 
 ## Getting Started
 
@@ -27,11 +58,10 @@ Run `yarn serve`, and open `http://localhost:8081/` in your browser. That's it!
 
 ### Development with Micro-Apps
 
-We have preset three micro-apps for you out of the box:
+We have preset some micro-apps for you out of the box:
 
 - Home: `./micro-apps/home/storyboard.yaml`
 - Todo: `./micro-apps/todo/storyboard.yaml`
-- Car Store: `./micro-apps/car-store/storyboard.yaml`
 
 Feel free to modify any content in these YAMLs while `yarn serve` is running, the webpage will auto refresh when these YAMLs are changed.
 
@@ -43,9 +73,40 @@ Todo...
 
 ## 简体中文
 
-_Brick Next_ 是优维科技的新一代前端框架，旨在提供一套高度插件化、高度可配置化的企业用户界面解决方案。
+## 简介
 
-本仓库是一个基于 Brick Next 的、无需服务器的演示项目。在该演示项目中，您可以通过写 YAML 文件的方式打造您的微应用。而更为强大的可视化编排微应用的 _Next Builder_ 在不久后就会公开。
+_Easy Bricks_ （以前称为 _Brick Next_ ）是优维科技的新一代前端框架，旨在提供一套高度插件化、高度可配置化的企业用户界面解决方案，也即一个可扩展的、企业级的低代码开发框架。
+
+优维科技全新的 DevOps 平台 _EasyOps_ 的前端整个基于 Easy Bricks 搭建。数百个企业级的微应用得以快速地、持续地交付给我们的企业客户。搭建企业级生产力工具从未如此简单。
+
+本仓库是一个基于 Easy Bricks 的、无需服务器的演示项目。在该演示项目中，您可以通过配置 YAML 文件的方式打造您的微应用。而更为强大的支持可视化编排微应用的 _Easy MA Builder_ 在不久后就会公开。
+
+## Easy Bricks 揭秘
+
+```
++------------------------------+      +--------------------+
+|        Brick Package         |      |     Micro App      |
+| +---------+  +---------+     | ...  |  +--------------+  | ...
+| | Brick A |  | Brick B | ... |      |  |  Storyboard  |  |
+| +---------+  +---------+     |      |  +--------------+  |
++------------------------------+      +--------------------+
+
++---------------------------------------------------------------+
+|                      Easy Bricks Core                         |
++---------------------------------------------------------------+
+```
+
+- *构件包*负责定义可重用的*构件*。构件和组件类似，但是有更高度的封装，并且可以很容易地通过声明的方式消费它们，无需编程。事实上，构件就是 [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)。构件可以是业务无关的、小的 UI 组件，也可以是包含业务特性的、大型的组件。
+
+- *微应用*由构件组装而来，构件如何组装定义在一个 _Storyboard_ 中。Storyboard 可以用一个 YAML 或 JSON 配置，也可以通过可视化工具编排出来。
+
+- *EasyBricks 的核心*负责解析微应用的 storyboards，并按照定义装载相应的构件。
+
+- 所有的构件包和微应用都可以独立部署。它们就像插件一样工作。可以看看真实世界中的例子：在仓库 [easyops-cn/next-basics](https://github.com/easyops-cn/next-basics) 中的[构件包](https://github.com/easyops-cn/next-basics/tree/master/bricks)和[微应用](https://github.com/easyops-cn/next-basics/tree/master/micro-apps)。
+
+如果使用 Easy Bricks，通过我们提供的开箱即用的数百个构件，即使是只有少量编程技巧的用户，也可以在短短几天、甚至几小时内从头搭建一个应用出来。
+
+另一方面，高级开发者也可以创建自己的构件，以满足复杂的业务需求。
 
 ## 开始
 
@@ -63,11 +124,10 @@ _Brick Next_ 是优维科技的新一代前端框架，旨在提供一套高度�
 
 ### 开发微应用
 
-我们已经为您在项目中预置了两个微应用：
+我们已经为您在项目中预置了几个微应用：
 
 - Home: `./micro-apps/home/storyboard.yaml`
 - Todo: `./micro-apps/todo/storyboard.yaml`
-- Car Store: `./micro-apps/car-store/storyboard.yaml`
 
 请尝试任意修改这些 YAML 文件，并保持 `yarn serve` 处于运行状态，页面将会在文件改动后自动更新。
 
