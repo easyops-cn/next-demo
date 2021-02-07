@@ -33,20 +33,20 @@
     "@ant-design/compatible": "^1.0.8",
     "@ant-design/icons": "^4.3.0",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "@next-bricks/basic-bricks": "^1.104.0",
-    "@next-bricks/forms": "^1.151.0",
+    "@next-bricks/basic-bricks": "^1.104.1",
+    "@next-bricks/forms": "^1.151.1",
     "@next-bricks/general-auth": "^1.4.11",
-    "@next-core/babel-runtime-helpers": "^1.0.5",
-    "@next-core/brick-http": "^2.2.4",
-    "@next-core/brick-icons": "^2.8.0",
-    "@next-core/brick-kit": "^2.32.2",
+    "@next-core/babel-runtime-helpers": "^1.0.6",
+    "@next-core/brick-http": "^2.2.5",
+    "@next-core/brick-icons": "^2.8.1",
+    "@next-core/brick-kit": "^2.33.0",
     "@next-core/brick-types": "^2.17.0",
-    "@next-core/brick-utils": "^2.10.7",
-    "@next-core/dev-dependencies": "^1.2.34",
-    "@next-core/easyops-analytics": "^0.1.4",
-    "@next-core/editor-bricks-helper": "^0.7.8",
-    "@next-core/fontawesome-library": "^1.1.12",
-    "@next-core/illustrations": "^0.3.4",
+    "@next-core/brick-utils": "^2.10.8",
+    "@next-core/dev-dependencies": "^1.2.36",
+    "@next-core/easyops-analytics": "^0.1.5",
+    "@next-core/editor-bricks-helper": "^0.7.9",
+    "@next-core/fontawesome-library": "^1.1.13",
+    "@next-core/illustrations": "^0.3.5",
     "@next-micro-apps/general-auth": "^1.0.8",
     "@size-limit/file": "^4.9.2",
     "@types/classnames": "^2.2.11",
@@ -101,6 +101,6 @@
     "@next-core/brick-types": "^2.17.0"
   },
   "easyops": {
-    "dev-dependencies": "1.2.34"
+    "dev-dependencies": "1.2.36"
   }
 }

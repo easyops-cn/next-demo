@@ -32,13 +32,24 @@ This repository is a server-free demo that uses Easy Bricks. In this demo, your 
 
 - _Micro-apps_ are assembled from bricks by declaring a _Storyboard_. Storyboards can be defined by a YAML or JSON, or be made from a visualization tool.
 
-- _The core of Easy Bricks_ is responsible for parsing storyboards of micro-apps and mounting bricks accordingly.
+- _Easy Bricks Core_ is responsible for parsing storyboards of micro-apps and mounting bricks accordingly.
 
 - All brick packages and micro-apps are independently deployable. They work as plugins. Check out the real world examples of [brick packages](https://github.com/easyops-cn/next-basics/tree/master/bricks) and [micro-apps](https://github.com/easyops-cn/next-basics/tree/master/micro-apps) in [easyops-cn/next-basics](https://github.com/easyops-cn/next-basics).
 
-By using Easy Bricks, which provides hundreds of bricks out of the bricks, users with limited programing skills can build an app in days even in hours, from scratch.
+By using Easy Bricks, which provides hundreds of bricks out of the box, users with limited programing skills can build an app in days even in hours, from scratch 🍻.
 
 On the other hand, advanced developers can also create new bricks for complex businesses.
+
+## Roadmap
+
+- Q1 2021:
+  - [x] Make _Easy Bricks Core_ and some basic brick packages open source.
+  - [ ] Publish _Easy MA Builder_, which is based on a Docker image with _EasyOps Platform_ included (server side services).
+  - [ ] Documentation website.
+  - [ ] Micro-App Marketplace.
+- Q2 2021:
+  - [ ] Auto testing for micro-apps.
+  - [ ] Online coding on Easy MA Builder (for advanced developers).
 
 ## Getting Started
 
@@ -77,7 +88,7 @@ Todo...
 
 This demo is [MIT licensed](./LICENSE).
 
-However, [the core of Easy Bricks](https://github.com/easyops-cn/next-core) is [GPL licensed](https://github.com/easyops-cn/next-core/blob/master/LICENSE).
+By the way, [Easy Bricks Core](https://github.com/easyops-cn/next-core) is [GPL licensed](https://github.com/easyops-cn/next-core/blob/master/LICENSE).
 
 ## 简体中文
 
@@ -108,13 +119,24 @@ _Easy Bricks_ （以前称为 _Brick Next_ ）是优维科技的新一代前端�
 
 - *微应用*由构件组装而来，构件如何组装定义在一个 _Storyboard_ 中。Storyboard 可以用一个 YAML 或 JSON 配置，也可以通过可视化工具编排出来。
 
-- *EasyBricks 的核心*负责解析微应用的 storyboards，并按照定义装载相应的构件。
+- _Easy Bricks Core_ 负责解析微应用的 storyboards，并按照定义装载相应的构件。
 
 - 所有的构件包和微应用都可以独立部署。它们就像插件一样工作。可以看看真实世界中的例子：在仓库 [easyops-cn/next-basics](https://github.com/easyops-cn/next-basics) 中的[构件包](https://github.com/easyops-cn/next-basics/tree/master/bricks)和[微应用](https://github.com/easyops-cn/next-basics/tree/master/micro-apps)。
 
 如果使用 Easy Bricks，通过我们提供的开箱即用的数百个构件，即使是只有少量编程技巧的用户，也可以在短短几天、甚至几小时内从头搭建一个应用出来。
 
 另一方面，高级开发者也可以创建自己的构件，以满足复杂的业务需求。
+
+## 路线图
+
+- 2021 年第一季度:
+  - [x] 开源 _Easy Bricks Core_ 和一些基本构件包；
+  - [ ] 发布基于 Docker 镜像的 _Easy MA Builder_，该镜像包含了 _EasyOps Platform_ （服务端组件）；
+  - [ ] 文档站点；
+  - [ ] 微应用市场。
+- 2021 年第二季度:
+  - [ ] 针对微应用的自动化测试能力；
+  - [ ] 在 Easy MA Builder 上集成代码开发能力（针对高级开发者）。
 
 ## 开始
 
@@ -131,6 +153,8 @@ _Easy Bricks_ （以前称为 _Brick Next_ ）是优维科技的新一代前端�
 ### 启动服务
 
 运行 `yarn serve`，然后通过浏览器打开 `http://localhost:8081/`。就是这么简单！
+
+> 提示: 输入任意的用户名以及和用户名一样的密码来登录，例如 `duck` / `duck`。
 
 ### 开发微应用
 
@@ -151,7 +175,7 @@ _Easy Bricks_ （以前称为 _Brick Next_ ）是优维科技的新一代前端�
 
 本演示项目使用 [MIT 协议](./LICENSE)。
 
-但是 [Easy Bricks 的核心](https://github.com/easyops-cn/next-core)使用 [GPL 协议](https://github.com/easyops-cn/next-core/blob/master/LICENSE)。
+另外注意 [Easy Bricks Core](https://github.com/easyops-cn/next-core) 使用 [GPL 协议](https://github.com/easyops-cn/next-core/blob/master/LICENSE)。
 
 <!--
 ## Documentation

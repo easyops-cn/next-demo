@@ -4,7 +4,6 @@
   "rangeStrategy": "bump",
   "semanticCommits": "enabled",
   "commitMessagePrefix": "chore(deps):",
-  "ignorePresets": [":ignoreModulesAndTests"],
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
