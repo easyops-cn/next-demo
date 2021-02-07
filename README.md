@@ -80,9 +80,11 @@ Feel free to modify any content in these YAMLs while `yarn serve` is running, th
 
 E.g., change the `pageTile` to `Hola Mundo`.
 
+> Tips: Micro-app Car Store at `./micro-apps/car-store/storyboard.yaml` requires a custom brick, see [documentation about development with bricks](./docs/development-with-bricks.md).
+
 ### Development with Bricks
 
-Todo...
+Wanna try something advanced and have fun? We also preset a brick to play with for you. See [documentation about development with bricks](./docs/development-with-bricks.md).
 
 ## License
 
@@ -167,9 +169,11 @@ _Easy Bricks_ （以前称为 _Brick Next_ ）是优维科技的新一代前端�
 
 例如，将 `pageTitle` 修改为 `Hola Mundo`。
 
+> 提示: 微应用 Car Store `./micro-apps/car-store/storyboard.yaml` 需要依赖一个自定义构件，请查看[关于构件开发的文档](./docs/development-with-bricks.md)。
+
 ### 开发构件
 
-未完待续...
+想要试一试更好玩、更进阶的功能？我们还预置了一个自定义构件让您体验。请查看[关于构件开发的文档](./docs/development-with-bricks.md)。
 
 ## 许可协议
 
