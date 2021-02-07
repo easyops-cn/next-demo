@@ -10,7 +10,7 @@ import { CarForSale } from "./CarForSale";
 
 export class CarForSaleElement extends UpdatingElement {
   @property()
-  print: string;
+  paint: string;
 
   @property({
     type: Boolean,
@@ -35,7 +35,7 @@ export class CarForSaleElement extends UpdatingElement {
     if (this.isConnected) {
       ReactDOM.render(
         <BrickWrapper>
-          <CarForSale print={this.print} running={this.running} />
+          <CarForSale paint={this.paint} running={this.running} />
         </BrickWrapper>,
         this
       );

@@ -19,12 +19,12 @@ routes:
         - brick: car-store.car-for-sale
           properties:
             id: car
-            print: Cyan
+            paint: Cyan
             running: true
 
         - brick: forms.general-radio
           properties:
-            label: Car print
+            label: Car paint
             options:
             - DeepSkyBlue
             - Cyan
@@ -36,11 +36,11 @@ routes:
             general.radio.change:
               target: '#car'
               properties:
-                print: '<% EVENT.detail %>'
+                paint: '<% EVENT.detail %>'
 
         - brick: forms.general-radio
           properties:
-            label: Test Drive
+            label: Test drive
             options:
             - Start
             - Stop

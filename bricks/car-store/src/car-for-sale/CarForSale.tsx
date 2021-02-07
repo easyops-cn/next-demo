@@ -1,12 +1,12 @@
 import React from "react";
 
 export interface CarForSaleProps {
-  print?: string;
+  paint?: string;
   running?: boolean;
 }
 
 export function CarForSale({
-  print,
+  paint,
   running,
 }: CarForSaleProps): React.ReactElement {
   const refSvg = React.useRef<SVGSVGElement>();
@@ -20,7 +20,7 @@ export function CarForSale({
   }, [running]);
 
   return (
-    <div style={{ color: print ?? "#98c8e7" }}>
+    <div style={{ color: paint ?? "#98c8e7" }}>
       <svg version="1.1" viewBox="0 0 800 90" ref={refSvg}>
         <defs>
           <g id="car-wheel">
@@ -61,7 +61,13 @@ export function CarForSale({
           </g>
         </defs>
         <g>
-          <ellipse fill="#eeeeee" cx="90" cy="70" rx="72" ry="14" />
+          <ellipse
+            fill="rgba(128,128,128,0.1)"
+            cx="90"
+            cy="70"
+            rx="72"
+            ry="14"
+          />
           <path
             fill="currentColor"
             stroke="#396180"

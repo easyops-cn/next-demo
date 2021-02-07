@@ -10,8 +10,8 @@ describe("CarForSale", () => {
     jest.clearAllMocks();
   });
 
-  it("should set car print", () => {
-    const wrapper = shallow(<CarForSale print="red" />);
+  it("should set car paint", () => {
+    const wrapper = shallow(<CarForSale paint="red" />);
     expect(wrapper.find("div").prop("style").color).toBe("red");
   });
 
