@@ -11,9 +11,18 @@ This is a server-free example to demonstrate how to build micro-apps with [_Easy
 
 In this demo, your can build your own micro-apps by configuring YAMLs. The more powerful visualization _Easy MA Builder_ is just on the way to public soon.
 
-> _Easy Bricks_ (formerly named _Brick Next_) is a front-end framework to build a highly-pluggable and highly-configurable enterprise user interface solution, a.k.a a low-code framework, which scales and for enterprise.
+> _Easy Bricks_ (formerly named _Brick Next_) is a front-end framework to build highly-pluggable and highly-configurable enterprise user interface solutions, a.k.a a low-code framework, which scales and for enterprise.
 >
 > The front-end of UWinTech's brand new DevOps platform _EasyOps_ is fully built on Easy Bricks. Hundreds of micro-apps are rapidly and continuously delivered to our enterprise clients. Building enterprise productivity tools has never been easier.
+
+- [Getting Started](#getting-started)
+  - [Pre-requests](#pre-requests)
+  - [Installing Dependencies](#installing-dependencies)
+  - [Starting to Serve](#starting-to-serve)
+  - [Building Micro-Apps](#building-micro-apps)
+  - [Development with Bricks](#development-with-bricks)
+- [What's Next](#whats-next)
+- [License](#license)
 
 ## Getting Started
 
@@ -25,11 +34,11 @@ You can just clone or fork this repository, or click the `Use this template` but
 
 Make sure you have installed [Node.js](https://nodejs.org/) v12+ and [Yarn](https://classic.yarnpkg.com/) 1.x (Classic).
 
-### Install Dependencies
+### Installing Dependencies
 
 Open your terminal, go to the repository directory, run `yarn`.
 
-### Start Serving
+### Starting to Serve
 
 Run `yarn serve`, and open `http://localhost:8081/` in your browser. That's it!
 
@@ -45,6 +54,8 @@ We have preset some micro-apps for you out of the box:
 Feel free to modify any content in these YAMLs while `yarn serve` is running, the webpage will auto refresh when these YAMLs are changed.
 
 E.g., change the `pageTile` to `Hola Mundo`.
+
+> Tips: If you're using VS Code, we have built [a VS Code extension](https://marketplace.visualstudio.com/items?itemName=weareoutman.vscode-brick-next) which enables specific syntax highlighting for storyboards.
 
 > Tips: Micro-app Car Store at `./micro-apps/car-store/storyboard.yaml` requires a custom brick, see [development with bricks](#development-with-bricks).
 
@@ -68,6 +79,16 @@ The source code of `car-store.car-for-sale` is at `./bricks/car-store/src/car-fo
 
 Try to add more functionalities to the car store, such as controlling the speed, or even make a U-turn. Just have fun!
 
+> Tips: we have also built [a Chrome devtools extension](https://chrome.google.com/webstore/detail/brick-next-developer-tool/imfbjbfcldgkdbfgeoppalofbjfihpdp), which helps developers to debug with bricks. Its source code is at [easyops-cn/brick-next-devtools](https://github.com/easyops-cn/brick-next-devtools).
+
+![Devtools screenshot](./assets/devtools.jpg)
+
+## What's Next
+
+_Easy MA Builder_ - a visualization builder for micro-apps, is just on the way to public soon, please stay tuned.
+
+![Visual builder](./assets/visual-builder.png)
+
 ## License
 
 This demo is [MIT licensed](./LICENSE).
@@ -85,6 +106,15 @@ By the way, [Easy Bricks Core](https://github.com/easyops-cn/next-core) is [GPL-
 > _Easy Bricks_ （以前称为 _Brick Next_ ）是优维科技的新一代前端框架，旨在提供一套高度插件化、高度可配置化的企业用户界面解决方案，也即一个可扩展的、企业级的低代码开发框架。
 >
 > 优维科技全新的 DevOps 平台 _EasyOps_ 的前端整个基于 Easy Bricks 搭建。数百个企业级的微应用得以快速地、持续地交付给我们的企业客户。搭建企业级生产力工具从未如此简单。
+
+- [开始](#开始)
+  - [环境要求](#环境要求)
+  - [安装依赖](#安装依赖)
+  - [启动服务](#启动服务)
+  - [搭建微应用](#搭建微应用)
+  - [开发构件](#开发构件)
+- [接下来](#接下来)
+- [许可协议](#许可协议)
 
 ## 开始
 
@@ -104,7 +134,7 @@ By the way, [Easy Bricks Core](https://github.com/easyops-cn/next-core) is [GPL-
 
 运行 `yarn serve`，然后通过浏览器打开 `http://localhost:8081/`。就是这么简单！
 
-> 提示: 输入任意的用户名以及和用户名一样的密码来登录，例如 `duck` / `duck`。
+> 提示：输入任意的用户名以及和用户名一样的密码来登录，例如 `duck` / `duck`。
 
 ### 搭建微应用
 
@@ -117,7 +147,9 @@ By the way, [Easy Bricks Core](https://github.com/easyops-cn/next-core) is [GPL-
 
 例如，将 `pageTitle` 修改为 `Hola Mundo`。
 
-> 提示: 微应用 Car Store `./micro-apps/car-store/storyboard.yaml` 需要依赖一个自定义构件，请查看[开发构件](#开发构件)。
+> 提示：如果您使用的是 VS Code，我们还提供了[一个 VS Code 扩展](https://marketplace.visualstudio.com/items?itemName=weareoutman.vscode-brick-next)，支持 storyboards 的特定语法高亮。
+
+> 提示：微应用 Car Store `./micro-apps/car-store/storyboard.yaml` 需要依赖一个自定义构件，请查看[开发构件](#开发构件)。
 
 ### 开发构件
 
@@ -140,14 +172,18 @@ By the way, [Easy Bricks Core](https://github.com/easyops-cn/next-core) is [GPL-
 
 请试着为汽车商店添加更多的功能，例如控制汽车的速度，甚至控制它掉个头。玩得开心！
 
+> 提示：我们还提供了[一个 Chrome 开发者工具扩展](https://chrome.google.com/webstore/detail/brick-next-developer-tool/imfbjbfcldgkdbfgeoppalofbjfihpdp)，用以帮助开发者调试构件。源代码托管在 [easyops-cn/brick-next-devtools](https://github.com/easyops-cn/brick-next-devtools)。
+
+![Devtools screenshot](./assets/devtools.jpg)
+
+## 接下来
+
+_Easy MA Builder_ -- 可视化的微应用编排工具不久后就将公开，敬请期待。
+
+![Visual builder](./assets/visual-builder.png)
+
 ## 许可协议
 
 本演示项目使用 [MIT 协议](./LICENSE)。
 
 另外注意 [Easy Bricks Core](https://github.com/easyops-cn/next-core) 使用 [GPL-3.0 协议](https://github.com/easyops-cn/next-core/blob/master/LICENSE)。
-
-<!--
-## Documentation
-
-See https://github.com/easyops-cn/next-basics/blob/master/CONTRIBUTING.md
--->
