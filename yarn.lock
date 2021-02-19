@@ -2369,10 +2369,10 @@
     react-dnd "^11.1.3"
     react-dnd-html5-backend "^11.1.3"
 
-"@next-micro-apps/general-auth@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.npm.taobao.org/@next-micro-apps/general-auth/download/@next-micro-apps/general-auth-1.0.8.tgz#da49ba2f9692ecb262b83022f9263234dbefd49d"
-  integrity sha1-2km6L5aS7LJiuDAi+SYyNNvv1J0=
+"@next-micro-apps/general-auth@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.npm.taobao.org/@next-micro-apps/general-auth/download/@next-micro-apps/general-auth-1.0.9.tgz#ad18f28303ef44829228b297c646f51da60aa31d"
+  integrity sha1-rRjygwPvRIKSKLKXxkb1HaYKox0=
 
 "@next-sdk/auth-sdk@^1.0.0":
   version "1.0.1"
