@@ -47,7 +47,7 @@
     "@next-core/editor-bricks-helper": "^0.7.9",
     "@next-core/fontawesome-library": "^1.1.13",
     "@next-core/illustrations": "^0.3.5",
-    "@next-micro-apps/general-auth": "^1.0.8",
+    "@next-micro-apps/general-auth": "^1.0.9",
     "@size-limit/file": "^4.9.2",
     "@types/classnames": "^2.2.11",
     "@types/d3": "^6.3.0",
