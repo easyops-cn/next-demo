@@ -2016,10 +2016,10 @@
   resolved "https://registry.npm.taobao.org/@next-bricks/basic-bricks/download/@next-bricks/basic-bricks-1.105.0.tgz#c11792bebe2a8c1a0a0f28f9a1117f214f962488"
   integrity sha1-wReSvr4qjBoKDyj5oRF/IU+WJIg=
 
-"@next-bricks/forms@^1.151.1":
-  version "1.151.1"
-  resolved "https://registry.npm.taobao.org/@next-bricks/forms/download/@next-bricks/forms-1.151.1.tgz#2835af20d82cbb349bbbeedf4110e489b416ffe9"
-  integrity sha1-KDWvINgsuzSbu+7fQRDkibQW/+k=
+"@next-bricks/forms@^1.151.4":
+  version "1.151.4"
+  resolved "https://registry.npm.taobao.org/@next-bricks/forms/download/@next-bricks/forms-1.151.4.tgz#20e5b1d5917b949f6f20f03494f3b59f394c1c5f"
+  integrity sha1-IOWx1ZF7lJ9vIPA0lPO1nzlMHF8=
 
 "@next-bricks/general-auth@^1.4.12":
   version "1.4.12"
