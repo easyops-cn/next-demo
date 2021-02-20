@@ -34,7 +34,7 @@
     "@ant-design/icons": "^4.3.0",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@next-bricks/basic-bricks": "^1.105.0",
-    "@next-bricks/forms": "^1.151.1",
+    "@next-bricks/forms": "^1.151.4",
     "@next-bricks/general-auth": "^1.4.12",
     "@next-core/babel-runtime-helpers": "^1.0.6",
     "@next-core/brick-http": "^2.2.5",
