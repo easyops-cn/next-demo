@@ -2116,7 +2116,7 @@
   resolved "https://registry.npm.taobao.org/@next-core/brick-icons/download/@next-core/brick-icons-2.8.4.tgz#06b784f5e0dd4449d1cd7f6c67fc1d769be8ecc6"
   integrity sha1-BreE9eDdREnRzX9sZ/wddpvo7MY=
 
-"@next-core/brick-kit@^2.34.1", "@next-core/brick-kit@^2.34.4":
+"@next-core/brick-kit@^2.34.4":
   version "2.34.4"
   resolved "https://registry.npm.taobao.org/@next-core/brick-kit/download/@next-core/brick-kit-2.34.4.tgz#6a66802e15123c930fa2ccf96ea133979daf99df"
   integrity sha1-amaALhUSPJMPosz5bqEzl52vmd8=
@@ -2146,12 +2146,12 @@
     request "^2.88.2"
     request-promise-native "^1.0.9"
 
-"@next-core/brick-types@^2.17.1", "@next-core/brick-types@^2.19.0":
-  version "2.17.1"
-  resolved "https://registry.npm.taobao.org/@next-core/brick-types/download/@next-core/brick-types-2.17.1.tgz#f33c589cce41f9b1ffb8d2fa75fa0c647fb1ada3"
-  integrity sha1-8zxYnM5B+bH/uNL6dfoMZH+xraM=
+"@next-core/brick-types@^2.19.0":
+  version "2.19.0"
+  resolved "https://registry.npm.taobao.org/@next-core/brick-types/download/@next-core/brick-types-2.19.0.tgz#261dff1acf0795b30f1537bb43eb158e8eea76f3"
+  integrity sha1-Jh3/Gs8HlbMPFTe7Q+sVjo7qdvM=
 
-"@next-core/brick-utils@^2.11.1", "@next-core/brick-utils@^2.12.0":
+"@next-core/brick-utils@^2.12.0":
   version "2.12.0"
   resolved "https://registry.npm.taobao.org/@next-core/brick-utils/download/@next-core/brick-utils-2.12.0.tgz#8e913a6bb1f70e8b29bec1d73b467189a62809cd"
   integrity sha1-jpE6a7H3DospvsHXO0ZxiaYoCc0=
@@ -2242,7 +2242,7 @@
     typescript "~4.1.5"
     yargs "^16.2.0"
 
-"@next-core/easyops-analytics@^0.1.6", "@next-core/easyops-analytics@^0.1.7":
+"@next-core/easyops-analytics@^0.1.7":
   version "0.1.7"
   resolved "https://registry.npm.taobao.org/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.1.7.tgz#f4dc193eccf3dddc938bc76a587e304ce1741851"
   integrity sha1-9NwZPszz3dyTi8dqWH4wTOF0GFE=
@@ -2253,15 +2253,6 @@
   integrity sha1-n52P03bMKHArFM1iM5t1pl0gLuI=
   dependencies:
     "@next-core/brick-types" "^2.19.0"
-    "@ungap/event-target" "^0.2.2"
-    classnames "^2.2.6"
-
-"@next-core/editor-bricks-helper@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.npm.taobao.org/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.8.1.tgz#553e47426da6828a7788851de174d07ec926edd1"
-  integrity sha1-VT5HQm2mgop3iIUd4XTQfskm7dE=
-  dependencies:
-    "@next-core/brick-types" "^2.17.1"
     "@ungap/event-target" "^0.2.2"
     classnames "^2.2.6"
 
