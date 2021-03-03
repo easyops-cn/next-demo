@@ -2062,10 +2062,10 @@
   dependencies:
     "@babel/runtime" "^7.12.18"
 
-"@next-core/brick-container@^2.18.2":
-  version "2.18.2"
-  resolved "https://registry.npm.taobao.org/@next-core/brick-container/download/@next-core/brick-container-2.18.2.tgz#fabac9deec893a4d01f254dd0763b4c82ca5550f"
-  integrity sha1-+rrJ3uyJOk0B8lTdB2O0yCylVQ8=
+"@next-core/brick-container@^2.18.8":
+  version "2.18.8"
+  resolved "https://registry.npm.taobao.org/@next-core/brick-container/download/@next-core/brick-container-2.18.8.tgz#b49a4c607b6e61d257936330104779347ad92510"
+  integrity sha1-tJpMYHtuYdJXk2MwEEd5NHrZJRA=
   dependencies:
     "@next-core/repo-config" "^0.2.1"
     body-parser "^1.19.0"
@@ -2079,10 +2079,10 @@
     meow "^9.0.0"
     ws "^7.4.3"
 
-"@next-core/brick-dll@^2.10.22":
-  version "2.10.22"
-  resolved "https://registry.npm.taobao.org/@next-core/brick-dll/download/@next-core/brick-dll-2.10.22.tgz#8769c8ae29a75492ee0451387c8a23a31a98df2e"
-  integrity sha1-h2nIrimnVJLuBFE4fIojoxqY3y4=
+"@next-core/brick-dll@^2.11.0":
+  version "2.11.0"
+  resolved "https://registry.npm.taobao.org/@next-core/brick-dll/download/@next-core/brick-dll-2.11.0.tgz#6400960349c164e7af06dc005494c4c5ade3a98d"
+  integrity sha1-ZACWA0nBZOevBtwAVJTExa3jqY0=
   dependencies:
     "@ant-design/compatible" "^1.0.8"
     "@ant-design/icons" "^4.5.0"
@@ -2090,9 +2090,9 @@
     "@next-core/babel-runtime-helpers" "^1.0.7"
     "@next-core/brick-http" "^2.2.6"
     "@next-core/brick-icons" "^2.8.4"
-    "@next-core/brick-kit" "^2.34.1"
-    "@next-core/brick-utils" "^2.11.1"
-    "@next-core/easyops-analytics" "^0.1.6"
+    "@next-core/brick-kit" "^2.34.4"
+    "@next-core/brick-utils" "^2.12.0"
+    "@next-core/easyops-analytics" "^0.1.7"
     "@next-core/fontawesome-library" "^1.1.13"
     "@next-core/illustrations" "^0.3.5"
     antd "^4.12.3"
@@ -2116,12 +2116,12 @@
   resolved "https://registry.npm.taobao.org/@next-core/brick-icons/download/@next-core/brick-icons-2.8.4.tgz#06b784f5e0dd4449d1cd7f6c67fc1d769be8ecc6"
   integrity sha1-BreE9eDdREnRzX9sZ/wddpvo7MY=
 
-"@next-core/brick-kit@^2.34.1":
-  version "2.34.1"
-  resolved "https://registry.npm.taobao.org/@next-core/brick-kit/download/@next-core/brick-kit-2.34.1.tgz#b66c620808c87317b6844771a56f5aaab79282ae"
-  integrity sha1-tmxiCAjIcxe2hEdxpW9aqreSgq4=
+"@next-core/brick-kit@^2.34.1", "@next-core/brick-kit@^2.34.4":
+  version "2.34.4"
+  resolved "https://registry.npm.taobao.org/@next-core/brick-kit/download/@next-core/brick-kit-2.34.4.tgz#6a66802e15123c930fa2ccf96ea133979daf99df"
+  integrity sha1-amaALhUSPJMPosz5bqEzl52vmd8=
   dependencies:
-    "@next-core/brick-types" "^2.17.1"
+    "@next-core/brick-types" "^2.19.0"
     "@next-sdk/auth-sdk" "^1.0.0"
     "@next-sdk/cmdb-sdk" "^1.0.0"
     "@next-sdk/micro-app-sdk" "^1.0.0"
@@ -2146,19 +2146,19 @@
     request "^2.88.2"
     request-promise-native "^1.0.9"
 
-"@next-core/brick-types@^2.17.1":
+"@next-core/brick-types@^2.17.1", "@next-core/brick-types@^2.19.0":
   version "2.17.1"
   resolved "https://registry.npm.taobao.org/@next-core/brick-types/download/@next-core/brick-types-2.17.1.tgz#f33c589cce41f9b1ffb8d2fa75fa0c647fb1ada3"
   integrity sha1-8zxYnM5B+bH/uNL6dfoMZH+xraM=
 
-"@next-core/brick-utils@^2.11.1":
-  version "2.11.1"
-  resolved "https://registry.npm.taobao.org/@next-core/brick-utils/download/@next-core/brick-utils-2.11.1.tgz#18773b3051aead7cdf2193682bf4724ddbf11d42"
-  integrity sha1-GHc7MFGurXzfIZNoK/RyTdvxHUI=
+"@next-core/brick-utils@^2.11.1", "@next-core/brick-utils@^2.12.0":
+  version "2.12.0"
+  resolved "https://registry.npm.taobao.org/@next-core/brick-utils/download/@next-core/brick-utils-2.12.0.tgz#8e913a6bb1f70e8b29bec1d73b467189a62809cd"
+  integrity sha1-jpE6a7H3DospvsHXO0ZxiaYoCc0=
   dependencies:
     "@babel/parser" "^7.12.17"
     "@easyops-cn/brick-next-pipes" "^0.3.10"
-    "@next-core/brick-types" "^2.17.1"
+    "@next-core/brick-types" "^2.19.0"
     file-saver "^2.0.5"
     path-to-regexp "^6.2.0"
 
@@ -2167,12 +2167,12 @@
   resolved "https://registry.npm.taobao.org/@next-core/browserslist-config-next/download/@next-core/browserslist-config-next-0.1.3.tgz#7b27b997ceae457d3c3f3b1c909407c16f86df81"
   integrity sha1-eye5l86uRX08PzsckJQHwW+G34E=
 
-"@next-core/build-config-factory@^2.3.4":
-  version "2.3.4"
-  resolved "https://registry.npm.taobao.org/@next-core/build-config-factory/download/@next-core/build-config-factory-2.3.4.tgz#58ea692b1b804dc9f8ac0cdf92e9e8a1c0ce734b"
-  integrity sha1-WOppKxuATcn4rAzfkunoocDOc0s=
+"@next-core/build-config-factory@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.npm.taobao.org/@next-core/build-config-factory/download/@next-core/build-config-factory-2.4.4.tgz#1cfb918a7b999fcccd0848327116fcb0a7c7d447"
+  integrity sha1-HPuRinuZn8zNCEgycRb8sKfH1Ec=
   dependencies:
-    "@next-core/brick-utils" "^2.11.1"
+    "@next-core/brick-utils" "^2.12.0"
     "@next-core/repo-config" "^0.2.1"
     change-case "^4.1.2"
     chokidar "^3.5.1"
@@ -2188,33 +2188,33 @@
     typedoc "^0.19.2"
     typedoc-plugin-no-inherit "^1.2.0"
 
-"@next-core/custom-antd-styles@^1.6.4":
-  version "1.6.4"
-  resolved "https://registry.npm.taobao.org/@next-core/custom-antd-styles/download/@next-core/custom-antd-styles-1.6.4.tgz#a4c70ab977836e68bb1d9bc1139263ed123adc1b"
-  integrity sha1-pMcKuXeDbmi7HZvBE5Jj7RI63Bs=
+"@next-core/custom-antd-styles@^1.6.5":
+  version "1.6.5"
+  resolved "https://registry.npm.taobao.org/@next-core/custom-antd-styles/download/@next-core/custom-antd-styles-1.6.5.tgz#6d78ab51d288f7dd7efd6d097e7c7f3358b498bb"
+  integrity sha1-bXirUdKI991+/W0Jfnx/M1i0mLs=
 
-"@next-core/dev-dependencies@^1.2.40":
-  version "1.2.40"
-  resolved "https://registry.npm.taobao.org/@next-core/dev-dependencies/download/@next-core/dev-dependencies-1.2.40.tgz#af30b8b074d2a3c0e61693137ef9309667aadeed"
-  integrity sha1-rzC4sHTSo8DmFpMTfvkwlmeq3u0=
+"@next-core/dev-dependencies@^1.2.47":
+  version "1.2.47"
+  resolved "https://registry.npm.taobao.org/@next-core/dev-dependencies/download/@next-core/dev-dependencies-1.2.47.tgz#9f3b5eb552e773e1ca85cc545aca66962d6dac53"
+  integrity sha1-nztetVLnc+HKhcxUWspmli1trFM=
   dependencies:
     "@babel/core" "^7.12.17"
     "@next-core/babel-preset-next" "^0.6.22"
     "@next-core/babel-preset-prismjs" "^1.0.5"
-    "@next-core/brick-container" "^2.18.2"
-    "@next-core/brick-dll" "^2.10.22"
+    "@next-core/brick-container" "^2.18.8"
+    "@next-core/brick-dll" "^2.11.0"
     "@next-core/brick-scripts" "^2.3.8"
     "@next-core/browserslist-config-next" "^0.1.3"
-    "@next-core/build-config-factory" "^2.3.4"
-    "@next-core/custom-antd-styles" "^1.6.4"
+    "@next-core/build-config-factory" "^2.4.4"
+    "@next-core/custom-antd-styles" "^1.6.5"
     "@next-core/eslint-config-next" "^1.0.15"
     "@next-core/rollup-config-factory" "^2.0.15"
-    "@next-core/webpack-config-factory" "^2.5.8"
-    "@next-dll/ace" "^2.0.90"
-    "@next-dll/d3" "^2.0.19"
-    "@next-dll/echarts" "^2.0.20"
-    "@next-dll/editor-bricks-helper" "^0.4.23"
-    "@next-dll/react-dnd" "^0.1.28"
+    "@next-core/webpack-config-factory" "^2.6.0"
+    "@next-dll/ace" "^2.0.94"
+    "@next-dll/d3" "^2.0.20"
+    "@next-dll/echarts" "^2.0.21"
+    "@next-dll/editor-bricks-helper" "^0.5.4"
+    "@next-dll/react-dnd" "^0.1.32"
     "@testing-library/jest-dom" "^5.11.9"
     "@testing-library/react" "^11.2.5"
     "@typescript-eslint/eslint-plugin" "^4.15.1"
@@ -2242,10 +2242,19 @@
     typescript "~4.1.5"
     yargs "^16.2.0"
 
-"@next-core/easyops-analytics@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.npm.taobao.org/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.1.6.tgz?cache=0&sync_timestamp=1613960515011&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40next-core%2Feasyops-analytics%2Fdownload%2F%40next-core%2Feasyops-analytics-0.1.6.tgz#ec39540ac3dff386d9073bb2b10a20163912f6bf"
-  integrity sha1-7DlUCsPf84bZBzuysQogFjkS9r8=
+"@next-core/easyops-analytics@^0.1.6", "@next-core/easyops-analytics@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.npm.taobao.org/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.1.7.tgz#f4dc193eccf3dddc938bc76a587e304ce1741851"
+  integrity sha1-9NwZPszz3dyTi8dqWH4wTOF0GFE=
+
+"@next-core/editor-bricks-helper@^0.10.2":
+  version "0.10.2"
+  resolved "https://registry.npm.taobao.org/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.10.2.tgz#9f9d8fd376cc28702b14cd62339b75a65d202ee2"
+  integrity sha1-n52P03bMKHArFM1iM5t1pl0gLuI=
+  dependencies:
+    "@next-core/brick-types" "^2.19.0"
+    "@ungap/event-target" "^0.2.2"
+    classnames "^2.2.6"
 
 "@next-core/editor-bricks-helper@^0.8.1":
   version "0.8.1"
@@ -2302,10 +2311,10 @@
     rollup-plugin-postcss "^3.1.8"
     string-hash "^1.1.3"
 
-"@next-core/webpack-config-factory@^2.5.8":
-  version "2.5.8"
-  resolved "https://registry.npm.taobao.org/@next-core/webpack-config-factory/download/@next-core/webpack-config-factory-2.5.8.tgz#ebe5ab180d53336e8b1b68ab6f3e4100ce2d3965"
-  integrity sha1-6+WrGA1TM26LG2irbz5BAM4tOWU=
+"@next-core/webpack-config-factory@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/@next-core/webpack-config-factory/download/@next-core/webpack-config-factory-2.6.0.tgz#df8193cf761287143956b7687c322b9b1e10fdef"
+  integrity sha1-34GTz3YShxQ5VrdofDIrmx4Q/e8=
   dependencies:
     "@next-core/less-plugin-css-variables" "^0.1.5"
     "@svgr/webpack" "^5.5.0"
@@ -2334,17 +2343,17 @@
     webpack-cli "^4.5.0"
     webpack-merge "^5.7.3"
 
-"@next-dll/ace@^2.0.90":
-  version "2.0.90"
-  resolved "https://registry.npm.taobao.org/@next-dll/ace/download/@next-dll/ace-2.0.90.tgz#05726c90656bc7dc767102e2978f88210c4c9e4a"
-  integrity sha1-BXJskGVrx9x2cQLil4+IIQxMnko=
+"@next-dll/ace@^2.0.94":
+  version "2.0.94"
+  resolved "https://registry.npm.taobao.org/@next-dll/ace/download/@next-dll/ace-2.0.94.tgz#990d5a903f18903e164de2dbcbe25ec9db94add8"
+  integrity sha1-mQ1akD8YkD4WTeLby+JeyduUrdg=
   dependencies:
     react-ace "^7.0.5"
 
-"@next-dll/d3@^2.0.19":
-  version "2.0.19"
-  resolved "https://registry.npm.taobao.org/@next-dll/d3/download/@next-dll/d3-2.0.19.tgz#d01f2972312375dc6281e263e6a3af66725fc119"
-  integrity sha1-0B8pcjEjddxigeJj5qOvZnJfwRk=
+"@next-dll/d3@^2.0.20":
+  version "2.0.20"
+  resolved "https://registry.npm.taobao.org/@next-dll/d3/download/@next-dll/d3-2.0.20.tgz#e1d16f278ead9d28e6bdd321798ce120eb2746ec"
+  integrity sha1-4dFvJ46tnSjmvdMheYzhIOsnRuw=
   dependencies:
     d3-drag "^2.0.0"
     d3-force "^2.1.1"
@@ -2353,24 +2362,24 @@
     d3-shape "^2.0.0"
     d3-zoom "^2.0.0"
 
-"@next-dll/echarts@^2.0.20":
-  version "2.0.20"
-  resolved "https://registry.npm.taobao.org/@next-dll/echarts/download/@next-dll/echarts-2.0.20.tgz#99fc468afc98de00c265b4a5d02c71dc27828404"
-  integrity sha1-mfxGivyY3gDCZbSl0Cxx3CeChAQ=
+"@next-dll/echarts@^2.0.21":
+  version "2.0.21"
+  resolved "https://registry.npm.taobao.org/@next-dll/echarts/download/@next-dll/echarts-2.0.21.tgz#42454825f1664cf45aa452ddaf95db60101335fa"
+  integrity sha1-QkVIJfFmTPRapFLdr5XbYBATNfo=
   dependencies:
     echarts "^4.9.0"
 
-"@next-dll/editor-bricks-helper@^0.4.23":
-  version "0.4.23"
-  resolved "https://registry.npm.taobao.org/@next-dll/editor-bricks-helper/download/@next-dll/editor-bricks-helper-0.4.23.tgz#0d6eed76a4d9c4847de31c991c934d143e7b6791"
-  integrity sha1-DW7tdqTZxIR94xyZHJNNFD57Z5E=
+"@next-dll/editor-bricks-helper@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.npm.taobao.org/@next-dll/editor-bricks-helper/download/@next-dll/editor-bricks-helper-0.5.4.tgz#f848dbedfaba309cd65d6a74c9c3cea431f3c7ba"
+  integrity sha1-+Ejb7fq6MJzWXWp0ycPOpDHzx7o=
   dependencies:
-    "@next-core/editor-bricks-helper" "^0.8.1"
+    "@next-core/editor-bricks-helper" "^0.10.2"
 
-"@next-dll/react-dnd@^0.1.28":
-  version "0.1.28"
-  resolved "https://registry.npm.taobao.org/@next-dll/react-dnd/download/@next-dll/react-dnd-0.1.28.tgz#904a73a43e2549a23d2789bd1fa84b1d1727b1a0"
-  integrity sha1-kEpzpD4lSaI9J4m9H6hLHRcnsaA=
+"@next-dll/react-dnd@^0.1.32":
+  version "0.1.32"
+  resolved "https://registry.npm.taobao.org/@next-dll/react-dnd/download/@next-dll/react-dnd-0.1.32.tgz#edbb25aac833a784a1615e4deff501536a7e7135"
+  integrity sha1-7bslqsgzp4ShYV5N7/UBU2p+cTU=
   dependencies:
     dnd-core "^11.1.3"
     react-dnd "^11.1.3"
