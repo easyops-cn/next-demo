@@ -2116,7 +2116,7 @@
   resolved "https://registry.npm.taobao.org/@next-core/brick-icons/download/@next-core/brick-icons-2.8.4.tgz#06b784f5e0dd4449d1cd7f6c67fc1d769be8ecc6"
   integrity sha1-BreE9eDdREnRzX9sZ/wddpvo7MY=
 
-"@next-core/brick-kit@^2.34.4", "@next-core/brick-kit@^2.34.7":
+"@next-core/brick-kit@^2.34.7":
   version "2.34.7"
   resolved "https://registry.npm.taobao.org/@next-core/brick-kit/download/@next-core/brick-kit-2.34.7.tgz#5d3c92f24f1b763611486bb16cfb35ad05c62f39"
   integrity sha1-XTyS8k8bdjYRSGuxbPs1rQXGLzk=
@@ -2151,7 +2151,7 @@
   resolved "https://registry.npm.taobao.org/@next-core/brick-types/download/@next-core/brick-types-2.19.0.tgz#261dff1acf0795b30f1537bb43eb158e8eea76f3"
   integrity sha1-Jh3/Gs8HlbMPFTe7Q+sVjo7qdvM=
 
-"@next-core/brick-utils@^2.12.0", "@next-core/brick-utils@^2.13.1":
+"@next-core/brick-utils@^2.13.1":
   version "2.13.1"
   resolved "https://registry.npm.taobao.org/@next-core/brick-utils/download/@next-core/brick-utils-2.13.1.tgz#0693648fa74cff8eda560cda5b9809b05a46e5d7"
   integrity sha1-BpNkj6dM/47aVgzaW5gJsFpG5dc=
@@ -2247,7 +2247,7 @@
   resolved "https://registry.npm.taobao.org/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.1.7.tgz#f4dc193eccf3dddc938bc76a587e304ce1741851"
   integrity sha1-9NwZPszz3dyTi8dqWH4wTOF0GFE=
 
-"@next-core/editor-bricks-helper@^0.10.2", "@next-core/editor-bricks-helper@^0.10.5":
+"@next-core/editor-bricks-helper@^0.10.5":
   version "0.10.5"
   resolved "https://registry.npm.taobao.org/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.10.5.tgz#a06548ab5b3eb047d86a789e53f9c740f64606ea"
   integrity sha1-oGVIq1s+sEfYanieU/nHQPZGBuo=
