@@ -29,7 +29,7 @@
     "@ant-design/compatible": "^1.0.8",
     "@ant-design/icons": "^4.5.0",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "@next-bricks/basic-bricks": "^1.106.2",
+    "@next-bricks/basic-bricks": "^1.106.4",
     "@next-bricks/forms": "^1.151.4",
     "@next-bricks/general-auth": "^1.4.12",
     "@next-core/babel-runtime-helpers": "^1.0.7",
