@@ -34,13 +34,13 @@
     "@next-bricks/general-auth": "^1.4.12",
     "@next-core/babel-runtime-helpers": "^1.0.8",
     "@next-core/brick-http": "^2.2.7",
-    "@next-core/brick-icons": "^2.8.6",
-    "@next-core/brick-kit": "^2.35.3",
-    "@next-core/brick-types": "^2.19.1",
-    "@next-core/brick-utils": "^2.13.2",
-    "@next-core/dev-dependencies": "^1.2.59",
+    "@next-core/brick-icons": "^2.14.0",
+    "@next-core/brick-kit": "^2.42.0",
+    "@next-core/brick-types": "^2.23.0",
+    "@next-core/brick-utils": "^2.14.4",
+    "@next-core/dev-dependencies": "^1.7.2",
     "@next-core/easyops-analytics": "^0.1.8",
-    "@next-core/editor-bricks-helper": "^0.13.0",
+    "@next-core/editor-bricks-helper": "^0.17.8",
     "@next-core/fontawesome-library": "^1.1.13",
     "@next-core/illustrations": "^0.3.5",
     "@next-micro-apps/general-auth": "^1.0.9",
@@ -89,7 +89,7 @@
   "resolutions": {
     "@types/react": "^16.14.4",
     "lodash": "^4.17.20",
-    "@next-core/brick-types": "^2.19.1"
+    "@next-core/brick-types": "^2.23.0"
   },
-  "easyops": { "dev-dependencies": "1.2.59" }
+  "easyops": { "dev-dependencies": "1.7.2" }
 }
