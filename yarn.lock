@@ -2078,12 +2078,12 @@
   resolved "https://registry.npm.taobao.org/@next-core/brick-http/download/@next-core/brick-http-2.2.7.tgz#3a036b476a1ac6a8c4b0b19a0b19815e2716ecb9"
   integrity sha1-OgNrR2oaxqjEsLGaCxmBXicW7Lk=
 
-"@next-core/brick-icons@^2.15.3", "@next-core/brick-icons@^2.17.0":
+"@next-core/brick-icons@^2.17.0":
   version "2.17.0"
   resolved "https://registry.nlark.com/@next-core/brick-icons/download/@next-core/brick-icons-2.17.0.tgz#7694eae168ce361c5c6aae1e78d15f5620e93ce9"
   integrity sha1-dpTq4WjONhxcaq4eeNFfViDpPOk=
 
-"@next-core/brick-kit@^2.44.2", "@next-core/brick-kit@^2.48.0":
+"@next-core/brick-kit@^2.48.0":
   version "2.48.0"
   resolved "https://registry.nlark.com/@next-core/brick-kit/download/@next-core/brick-kit-2.48.0.tgz#7cafff76b2f0321fb1d29c6d6abd3eacfe6a1e63"
   integrity sha1-fK//drLwMh+x0pxtar0+rP5qHmM=
@@ -2113,12 +2113,12 @@
     request "^2.88.2"
     request-promise-native "^1.0.9"
 
-"@next-core/brick-types@^2.25.1", "@next-core/brick-types@^2.26.0":
-  version "2.25.1"
-  resolved "https://registry.nlark.com/@next-core/brick-types/download/@next-core/brick-types-2.25.1.tgz#46e1584e366f73b691d77d40725b0381f2c2a53d"
-  integrity sha1-RuFYTjZvc7aR131AclsDgfLCpT0=
+"@next-core/brick-types@^2.26.0":
+  version "2.26.0"
+  resolved "https://registry.nlark.com/@next-core/brick-types/download/@next-core/brick-types-2.26.0.tgz#ed02de91a2658569f81e28fe635151e9099d1b59"
+  integrity sha1-7QLekaJlhWn4Hij+Y1FR6QmdG1k=
 
-"@next-core/brick-utils@^2.15.1", "@next-core/brick-utils@^2.16.0":
+"@next-core/brick-utils@^2.16.0":
   version "2.16.0"
   resolved "https://registry.nlark.com/@next-core/brick-utils/download/@next-core/brick-utils-2.16.0.tgz#f2a314674c41b9defd9f0cfb4e0aacddd7a78876"
   integrity sha1-8qMUZ0xBud79nwz7Tgqs3deniHY=
@@ -2217,7 +2217,7 @@
   resolved "https://registry.npm.taobao.org/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.1.8.tgz#c8cd83d184fa0cc244b3d46c3658af5e3ee194aa"
   integrity sha1-yM2D0YT6DMJEs9RsNlivXj7hlKo=
 
-"@next-core/editor-bricks-helper@^0.19.2", "@next-core/editor-bricks-helper@^0.19.8":
+"@next-core/editor-bricks-helper@^0.19.8":
   version "0.19.8"
   resolved "https://registry.nlark.com/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.19.8.tgz#38f795b6f4c0dbf741b91b8c41778737b539c93f"
   integrity sha1-OPeVtvTA2/dBuRuMQXeHN7U5yT8=
