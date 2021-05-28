@@ -2080,12 +2080,12 @@
   resolved "https://registry.npm.taobao.org/@next-core/brick-http/download/@next-core/brick-http-2.2.7.tgz#3a036b476a1ac6a8c4b0b19a0b19815e2716ecb9"
   integrity sha1-OgNrR2oaxqjEsLGaCxmBXicW7Lk=
 
-"@next-core/brick-icons@^2.17.0", "@next-core/brick-icons@^2.17.1":
+"@next-core/brick-icons@^2.17.1":
   version "2.17.1"
   resolved "https://registry.nlark.com/@next-core/brick-icons/download/@next-core/brick-icons-2.17.1.tgz#02069ec5a819a728c95c0b035cba7731d867058c"
   integrity sha1-AgaexagZpyjJXAsDXLp3MdhnBYw=
 
-"@next-core/brick-kit@^2.48.0", "@next-core/brick-kit@^2.48.1":
+"@next-core/brick-kit@^2.48.1":
   version "2.48.1"
   resolved "https://registry.nlark.com/@next-core/brick-kit/download/@next-core/brick-kit-2.48.1.tgz#3f4f8154780447b711f19167ac61105356673378"
   integrity sha1-P0+BVHgER7cR8ZFnrGEQU1ZnM3g=
@@ -2115,12 +2115,12 @@
     request "^2.88.2"
     request-promise-native "^1.0.9"
 
-"@next-core/brick-types@^2.26.0", "@next-core/brick-types@^2.26.1":
-  version "2.26.0"
-  resolved "https://registry.nlark.com/@next-core/brick-types/download/@next-core/brick-types-2.26.0.tgz#ed02de91a2658569f81e28fe635151e9099d1b59"
-  integrity sha1-7QLekaJlhWn4Hij+Y1FR6QmdG1k=
+"@next-core/brick-types@^2.26.1":
+  version "2.26.1"
+  resolved "https://registry.nlark.com/@next-core/brick-types/download/@next-core/brick-types-2.26.1.tgz#360e01961382e570e1848076035c52239a2f73a0"
+  integrity sha1-Ng4BlhOC5XDhhIB2A1xSI5ovc6A=
 
-"@next-core/brick-utils@^2.16.0", "@next-core/brick-utils@^2.16.1":
+"@next-core/brick-utils@^2.16.1":
   version "2.16.1"
   resolved "https://registry.nlark.com/@next-core/brick-utils/download/@next-core/brick-utils-2.16.1.tgz#ccac8f61d168771c196b77ebac98fc7aaed47d44"
   integrity sha1-zKyPYdFodxwZa3frrJj8eq7UfUQ=
@@ -2219,7 +2219,7 @@
   resolved "https://registry.npm.taobao.org/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.1.8.tgz#c8cd83d184fa0cc244b3d46c3658af5e3ee194aa"
   integrity sha1-yM2D0YT6DMJEs9RsNlivXj7hlKo=
 
-"@next-core/editor-bricks-helper@^0.19.8", "@next-core/editor-bricks-helper@^0.19.9":
+"@next-core/editor-bricks-helper@^0.19.9":
   version "0.19.9"
   resolved "https://registry.nlark.com/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.19.9.tgz#c2ef4f93be4266b0239f1c4c72601b4a2678062a"
   integrity sha1-wu9Pk75CZrAjnxxMcmAbSiZ4Bio=
@@ -2245,7 +2245,7 @@
     "@fortawesome/free-brands-svg-icons" "^5.15.3"
     "@fortawesome/free-solid-svg-icons" "^5.15.3"
 
-"@next-core/illustrations@^0.3.6", "@next-core/illustrations@^0.3.7":
+"@next-core/illustrations@^0.3.7":
   version "0.3.7"
   resolved "https://registry.nlark.com/@next-core/illustrations/download/@next-core/illustrations-0.3.7.tgz#c19fb0a97debadb8908089a1ccc5a48e87b81bcc"
   integrity sha1-wZ+wqX3rrbiQgImhzMWkjoe4G8w=
@@ -2596,10 +2596,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@size-limit/file@^4.10.2":
-  version "4.10.2"
-  resolved "https://registry.npm.taobao.org/@size-limit/file/download/@size-limit/file-4.10.2.tgz#0a91b83ae310d267bd0a9d6d865e06b0f3fef6ce"
-  integrity sha1-CpG4OuMQ0me9Cp1thl4GsPP+9s4=
+"@size-limit/file@^4.11.0":
+  version "4.11.0"
+  resolved "https://registry.nlark.com/@size-limit/file/download/@size-limit/file-4.11.0.tgz#d453ea543e4f4f1ba5e8b3bd517d1f27759b747d"
+  integrity sha1-1FPqVD5PTxul6LO9UX0fJ3WbdH0=
   dependencies:
     semver "7.3.5"
 
@@ -2976,10 +2976,10 @@
     "@types/d3-interpolate" "*"
     "@types/d3-selection" "*"
 
-"@types/d3@^6.3.0":
-  version "6.3.0"
-  resolved "https://registry.npm.taobao.org/@types/d3/download/@types/d3-6.3.0.tgz#28d1bfd4e5ef6a38535d8ef0884d452192719528"
-  integrity sha1-KNG/1OXvajhTXY7wiE1FIZJxlSg=
+"@types/d3@^6.7.0":
+  version "6.7.0"
+  resolved "https://registry.nlark.com/@types/d3/download/@types/d3-6.7.0.tgz#e801778cfcf3b5e52ad4dae0d21263b2511d314f"
+  integrity sha1-6AF3jPzzteUq1Nrg0hJjslEdMU8=
   dependencies:
     "@types/d3-array" "*"
     "@types/d3-axis" "*"
@@ -3123,10 +3123,10 @@
   resolved "https://registry.npm.taobao.org/@types/json-schema/download/@types/json-schema-7.0.7.tgz?cache=0&sync_timestamp=1611095982716&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
   integrity sha1-mKmTUWyFnrDVxMjwmDF6nqaNua0=
 
-"@types/lodash@^4.14.168":
-  version "4.14.168"
-  resolved "https://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.168.tgz?cache=0&sync_timestamp=1610980846329&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Flodash%2Fdownload%2F%40types%2Flodash-4.14.168.tgz#fe24632e79b7ade3f132891afff86caa5e5ce008"
-  integrity sha1-/iRjLnm3rePxMoka//hsql5c4Ag=
+"@types/lodash@^4.14.170":
+  version "4.14.170"
+  resolved "https://registry.nlark.com/@types/lodash/download/@types/lodash-4.14.170.tgz?cache=0&sync_timestamp=1621593291475&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Flodash%2Fdownload%2F%40types%2Flodash-4.14.170.tgz#0d67711d4bf7f4ca5147e9091b847479b87925d6"
+  integrity sha1-DWdxHUv39MpRR+kJG4R0ebh5JdY=
 
 "@types/lolex@^5.1.0":
   version "5.1.0"
@@ -3148,10 +3148,10 @@
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.22.tgz#0d29f382472c4ccf3bd96ff0ce47daf5b7b84b18"
   integrity sha1-DSnzgkcsTM872W/wzkfa9be4Sxg=
 
-"@types/node@^12.20.12":
-  version "12.20.12"
-  resolved "https://registry.nlark.com/@types/node/download/@types/node-12.20.12.tgz#fd9c1c2cfab536a2383ed1ef70f94adea743a226"
-  integrity sha1-/ZwcLPq1NqI4PtHvcPlK3qdDoiY=
+"@types/node@^12.20.13":
+  version "12.20.13"
+  resolved "https://registry.nlark.com/@types/node/download/@types/node-12.20.13.tgz?cache=0&sync_timestamp=1621901346657&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.20.13.tgz#e743bae112bd779ac9650f907197dd2caa7f0364"
+  integrity sha1-50O64RK9d5rJZQ+QcZfdLKp/A2Q=
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -3199,10 +3199,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.14.6":
-  version "16.14.6"
-  resolved "https://registry.nlark.com/@types/react/download/@types/react-16.14.6.tgz#d933a2a6bc1bfe320a5eea480e8f45ba8126d6ee"
-  integrity sha1-2TOiprwb/jIKXupIDo9FuoEm1u4=
+"@types/react@*", "@types/react@^16.14.8":
+  version "16.14.8"
+  resolved "https://registry.nlark.com/@types/react/download/@types/react-16.14.8.tgz#4aee3ab004cb98451917c9b7ada3c7d7e52db3fe"
+  integrity sha1-Su46sATLmEUZF8m3raPH1+Uts/4=
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -7675,7 +7675,7 @@ husky@^6.0.0:
   resolved "https://registry.npm.taobao.org/husky/download/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
   integrity sha1-gQ8RhprfUWBMMupXftvDd9f5MZ4=
 
-i18next@^20.2.2, i18next@^20.3.0:
+i18next@^20.3.0:
   version "20.3.0"
   resolved "https://registry.nlark.com/i18next/download/i18next-20.3.0.tgz#9558b431241fb1dbbd445174391ede65d0a68ed9"
   integrity sha1-lVi0MSQfsdu9RFF0OR7eZdCmjtk=
@@ -12290,7 +12290,7 @@ react-dom@^16.14.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-i18next@^11.8.15, react-i18next@^11.9.0:
+react-i18next@^11.9.0:
   version "11.10.0"
   resolved "https://registry.nlark.com/react-i18next/download/react-i18next-11.10.0.tgz#f34257447e18e710e36d8fd3f721dd7d37c7004f"
   integrity sha1-80JXRH4Y5xDjbY/T9yHdfTfHAE8=
