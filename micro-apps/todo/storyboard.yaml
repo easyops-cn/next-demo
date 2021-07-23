@@ -10,6 +10,11 @@ routes:
   context:
     - name: todoList
       value: '<% LOCAL_STORAGE.getItem("todo-list") ?? [] %>'
+      onChange:
+        action: localStorage.setItem
+        args:
+        - todo-list
+        - '<% CTX.todoList %>'
   bricks:
   - brick: basic-bricks.micro-view
     properties:
@@ -19,25 +24,21 @@ routes:
         type: bricks
         bricks:
         - brick: basic-bricks.general-card
-          if: '<% CTX.todoList.length > 0 %>'
+          properties:
+            hidden: '<% "track context", CTX.todoList.length === 0 %>'
           slots:
             content:
               type: bricks
               bricks:
-              - brick: basic-bricks.list-container
+              - brick: tpl-list-container
                 properties:
-                  data: '<% CTX.todoList.map((thing, index) => ({ thing, index })) %>'
-                  useBrick:
-                    brick: div
-                    transform:
-                      textContent: '<% `#${DATA.index + 1} ${DATA.thing}` %>'
-                    events:
-                      dblclick:
-                      - action: localStorage.setItem
-                        args:
-                        - todo-list
-                        - '<% CTX.todoList.filter((_, i) => i !== DATA.index) %>'
-                      - action: history.reload
+                  data: '<% "track context", CTX.todoList.map((thing, index) => ({ thing, index })) %>'
+                events:
+                  todo.dblclick:
+                  - action: context.replace
+                    args:
+                    - todoList
+                    - '<% CTX.todoList.filter((_, i) => i !== EVENT.detail.index) %>'
               - brick: div
                 properties:
                   textContent: 'Tips: double click a todo to mark it as DONE ✔️'
@@ -71,17 +72,42 @@ routes:
                           method: validate
                     - brick: forms.general-buttons
                       properties:
-                        submitText: '<% `Add #${CTX.todoList.length + 1}` %>'
+                        submitText: '<% "track context", `Add #${CTX.todoList.length + 1}` %>'
                         submitType: default
                 events:
                   validate.success:
                   - action: console.log
-                  - action: localStorage.setItem
+                  - action: context.replace
                     args:
-                    - todo-list
+                    - todoList
                     - '<% [...CTX.todoList, EVENT.detail.thing] %>'
-                  - action: history.reload
+                  - target: '#todoForm'
+                    method: setInitValue
+                    args:
+                    - thing: null
 
   menu:
     sidebarMenu:
       defaultCollapsed: true
+meta:
+  customTemplates:
+  - name: tpl-list-container
+    proxy:
+      properties:
+        data:
+          ref: listContainer
+          refProperty: data
+    bricks:
+    - brick: basic-bricks.list-container
+      ref: listContainer
+      properties:
+        useBrick:
+          brick: div
+          transform:
+            textContent: '<% `#${DATA.index + 1} ${DATA.thing}` %>'
+          events:
+            dblclick:
+            - action: tpl.dispatchEvent
+              args:
+              - todo.dblclick
+              - detail: '<% DATA %>'
