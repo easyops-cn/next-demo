@@ -2046,10 +2046,10 @@
   dependencies:
     "@babel/runtime" "^7.14.8"
 
-"@next-core/brick-container@^2.28.1":
-  version "2.28.1"
-  resolved "https://registry.nlark.com/@next-core/brick-container/download/@next-core/brick-container-2.28.1.tgz#fb6d0d491e31633195222203effc31aee3d0148b"
-  integrity sha1-+20NSR4xYzGVIiID7/wxruPQFIs=
+"@next-core/brick-container@^2.28.2":
+  version "2.28.2"
+  resolved "https://registry.nlark.com/@next-core/brick-container/download/@next-core/brick-container-2.28.2.tgz#1292e8896fdcceeb4587b80da7adb26de54fdb7e"
+  integrity sha1-EpLoiW/czutFh7gNp62ybeVP234=
   dependencies:
     "@next-core/repo-config" "^0.2.1"
     body-parser "^1.19.0"
@@ -2063,10 +2063,10 @@
     meow "^9.0.0"
     ws "^7.5.3"
 
-"@next-core/brick-dll@^2.18.2":
-  version "2.18.2"
-  resolved "https://registry.nlark.com/@next-core/brick-dll/download/@next-core/brick-dll-2.18.2.tgz#af3f9197f099e6e5013f4be63f078e4673edfd76"
-  integrity sha1-rz+Rl/CZ5uUBP0vmPweORnPt/XY=
+"@next-core/brick-dll@^2.18.3":
+  version "2.18.3"
+  resolved "https://registry.nlark.com/@next-core/brick-dll/download/@next-core/brick-dll-2.18.3.tgz#119a489ef98906f309680f46b231ed977d9dd685"
+  integrity sha1-EZpInvmJBvMJaA9GsjHtl32d1oU=
   dependencies:
     "@ant-design/compatible" "^1.0.8"
     "@ant-design/icons" "^4.5.0"
@@ -2074,7 +2074,7 @@
     "@next-core/babel-runtime-helpers" "^1.0.12"
     "@next-core/brick-http" "^2.2.10"
     "@next-core/brick-icons" "^2.19.10"
-    "@next-core/brick-kit" "^2.60.1"
+    "@next-core/brick-kit" "^2.60.2"
     "@next-core/brick-utils" "^2.21.1"
     "@next-core/easyops-analytics" "^0.2.0"
     "@next-core/fontawesome-library" "^1.1.18"
@@ -2100,10 +2100,10 @@
   resolved "https://registry.nlark.com/@next-core/brick-icons/download/@next-core/brick-icons-2.19.10.tgz#ef488b1e1b48aa9f70bba330e92e3be76155eecc"
   integrity sha1-70iLHhtIqp9wu6Mw6S4752FV7sw=
 
-"@next-core/brick-kit@^2.60.1":
-  version "2.60.1"
-  resolved "https://registry.nlark.com/@next-core/brick-kit/download/@next-core/brick-kit-2.60.1.tgz#9a0310ca3266054fdf6c61490711725b432e1817"
-  integrity sha1-mgMQyjJmBU/fbGFJBxFyW0MuGBc=
+"@next-core/brick-kit@^2.60.2":
+  version "2.60.2"
+  resolved "https://registry.nlark.com/@next-core/brick-kit/download/@next-core/brick-kit-2.60.2.tgz#fe37c590a303eacc02ed1b65e33cdf8004a06c85"
+  integrity sha1-/jfFkKMD6swC7Rtl4zzfgASgbIU=
   dependencies:
     "@next-core/brick-types" "^2.34.1"
     "@next-sdk/auth-sdk" "^1.0.0"
@@ -2181,16 +2181,16 @@
   resolved "https://registry.nlark.com/@next-core/custom-antd-styles/download/@next-core/custom-antd-styles-1.8.9.tgz#7590c0a79cc7d92cc59684e90fa9110d0a85331b"
   integrity sha1-dZDAp5zH2SzFloTpD6kRDQqFMxs=
 
-"@next-core/dev-dependencies@^1.8.70":
-  version "1.8.70"
-  resolved "https://registry.nlark.com/@next-core/dev-dependencies/download/@next-core/dev-dependencies-1.8.70.tgz#ac331043c784371b22e8ecee4c1a7eb0637c801d"
-  integrity sha1-rDMQQ8eENxsi6OzuTBp+sGN8gB0=
+"@next-core/dev-dependencies@^1.8.71":
+  version "1.8.71"
+  resolved "https://registry.nlark.com/@next-core/dev-dependencies/download/@next-core/dev-dependencies-1.8.71.tgz#6646b82fd95ea5eb479f430d5a0b5bd169504a1b"
+  integrity sha1-Zka4L9lepetHn0MNWgtb0WlQShs=
   dependencies:
     "@babel/core" "^7.14.8"
     "@next-core/babel-preset-next" "^0.7.3"
     "@next-core/babel-preset-prismjs" "^1.0.7"
-    "@next-core/brick-container" "^2.28.1"
-    "@next-core/brick-dll" "^2.18.2"
+    "@next-core/brick-container" "^2.28.2"
+    "@next-core/brick-dll" "^2.18.3"
     "@next-core/brick-scripts" "^2.5.2"
     "@next-core/browserslist-config-next" "^0.1.3"
     "@next-core/build-config-factory" "^2.13.8"
@@ -2198,11 +2198,11 @@
     "@next-core/eslint-config-next" "^1.0.22"
     "@next-core/rollup-config-factory" "^2.2.3"
     "@next-core/webpack-config-factory" "^2.9.4"
-    "@next-dll/ace" "^2.0.179"
+    "@next-dll/ace" "^2.0.180"
     "@next-dll/d3" "^2.0.31"
     "@next-dll/echarts" "^2.0.32"
-    "@next-dll/editor-bricks-helper" "^0.17.2"
-    "@next-dll/react-dnd" "^0.1.117"
+    "@next-dll/editor-bricks-helper" "^0.17.3"
+    "@next-dll/react-dnd" "^0.1.118"
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^11.2.7"
     "@typescript-eslint/eslint-plugin" "^4.28.4"
@@ -2235,10 +2235,10 @@
   resolved "https://registry.nlark.com/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.2.0.tgz#e1b72a2aa264441427d27fde8027a858d0638a55"
   integrity sha1-4bcqKqJkRBQn0n/egCeoWNBjilU=
 
-"@next-core/editor-bricks-helper@^0.30.13":
-  version "0.30.13"
-  resolved "https://registry.nlark.com/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.30.13.tgz#d322a6625376d3d02794684d5ca3393a2d944f8d"
-  integrity sha1-0yKmYlN209AnlGhNXKM5Oi2UT40=
+"@next-core/editor-bricks-helper@^0.30.14":
+  version "0.30.14"
+  resolved "https://registry.nlark.com/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.30.14.tgz#2cb5db9eec96fcdb611816fb72993f308a728ca7"
+  integrity sha1-LLXbnuyW/NthGBb7cpk/MIpyjKc=
   dependencies:
     "@next-core/brick-types" "^2.34.1"
     "@ungap/event-target" "^0.2.3"
@@ -2329,10 +2329,10 @@
     webpack-cli "^4.7.2"
     webpack-merge "^5.8.0"
 
-"@next-dll/ace@^2.0.179":
-  version "2.0.179"
-  resolved "https://registry.nlark.com/@next-dll/ace/download/@next-dll/ace-2.0.179.tgz#9b4a8d84e8a3fec59737ae68686685ffad29f575"
-  integrity sha1-m0qNhOij/sWXN65oaGaF/60p9XU=
+"@next-dll/ace@^2.0.180":
+  version "2.0.180"
+  resolved "https://registry.nlark.com/@next-dll/ace/download/@next-dll/ace-2.0.180.tgz#0b163146028e94c91496a8a587634a07f967ccc4"
+  integrity sha1-CxYxRgKOlMkUlqilh2NKB/lnzMQ=
   dependencies:
     react-ace "^7.0.5"
 
@@ -2355,17 +2355,17 @@
   dependencies:
     echarts "^4.9.0"
 
-"@next-dll/editor-bricks-helper@^0.17.2":
-  version "0.17.2"
-  resolved "https://registry.nlark.com/@next-dll/editor-bricks-helper/download/@next-dll/editor-bricks-helper-0.17.2.tgz#e63ea75342a92d28b3cfc01b6520ab478e841aa4"
-  integrity sha1-5j6nU0KpLSizz8AbZSCrR46EGqQ=
+"@next-dll/editor-bricks-helper@^0.17.3":
+  version "0.17.3"
+  resolved "https://registry.nlark.com/@next-dll/editor-bricks-helper/download/@next-dll/editor-bricks-helper-0.17.3.tgz#10ffacac734f3d3b359fcd9a514068cc165c22c5"
+  integrity sha1-EP+srHNPPTs1n82aUUBozBZcIsU=
   dependencies:
-    "@next-core/editor-bricks-helper" "^0.30.13"
+    "@next-core/editor-bricks-helper" "^0.30.14"
 
-"@next-dll/react-dnd@^0.1.117":
-  version "0.1.117"
-  resolved "https://registry.nlark.com/@next-dll/react-dnd/download/@next-dll/react-dnd-0.1.117.tgz#f19a0637f707b7e92e0737e7894d32f7bada5935"
-  integrity sha1-8ZoGN/cHt+kuBzfniU0y97raWTU=
+"@next-dll/react-dnd@^0.1.118":
+  version "0.1.118"
+  resolved "https://registry.nlark.com/@next-dll/react-dnd/download/@next-dll/react-dnd-0.1.118.tgz#d51bea8c2c13d4893cb4feb3c0018b747d907415"
+  integrity sha1-1RvqjCwT1Ik8tP6zwAGLdH2QdBU=
   dependencies:
     dnd-core "^11.1.3"
     react-dnd "^11.1.3"
