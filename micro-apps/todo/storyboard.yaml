@@ -11,10 +11,16 @@ routes:
     - name: todoList
       value: '<% LOCAL_STORAGE.getItem("todo-list") ?? [] %>'
       onChange:
-        action: localStorage.setItem
+      - action: localStorage.setItem
         args:
         - todo-list
         - '<% CTX.todoList %>'
+      - action: context.replace
+        args:
+        - firstTodo
+        - '<% CTX.todoList[0] %>'
+    - name: firstTodo
+      value: '<% CTX.todoList[0] %>'
   bricks:
   - brick: basic-bricks.micro-view
     properties:
@@ -44,36 +50,88 @@ routes:
                   data: '<% "track context", CTX.todoList.map((thing, index) => ({ thing, index })) %>'
                   useBrick:
                     brick: div
-                    transform:
-                      textContent: '<% `#${DATA.index + 1} ${DATA.thing}` %>'
+                    properties:
+                      style:
+                        color: |
+                          <% `<% "red" %>` %>
+                      title: '<% CTX.todoList.length %>'
+                      # textContent: '<% `#${DATA.index + 1} ${DATA.thing}` %>'
+                      textContent: '#@{index|add:1} @{thing}'
                     events:
                       dblclick:
-                      - if: '<% CTX.todoList.length === 1 %>'
-                        action: console.log
-                        args:
-                        - 'before: todoList.length === 1'
-                      - if: '<% CTX.todoList.length > 1 %>'
-                        action: console.log
-                        args:
-                        - 'before: todoList.length > 1'
-                      - action: context.replace
+                        action: context.replace
                         args:
                         - todoList
                         - '<% CTX.todoList.filter((_, i) => i !== DATA.index) %>'
-                      - if: '<% CTX.todoList.length === 1 %>'
-                        action: console.log
-                        args:
-                        - 'after: todoList.length === 1'
-                      - if: '<% CTX.todoList.length > 1 %>'
-                        action: console.log
-                        args:
-                        - 'after: todoList.length > 1'
               - brick: div
                 properties:
                   textContent: 'Tips: double click a todo to mark it as DONE ✔️'
                   style:
                     color: gray
                     marginTop: 1em
+
+        - brick: presentational-bricks.brick-descriptions
+          properties:
+            configProps:
+              column: 2
+            descriptionTitle: 基本信息
+            # dataSource: '<% "track context", { index: 0, thing: CTX.firstTodo } %>'
+            itemList:
+            - field: index
+              label: Index
+            - field: thing
+              label: Thing
+              useBrick:
+                brick: basic-bricks.popover-container
+                transform:
+                  data: '<% "track context", { _index: 0, _thing: CTX.firstTodo } %>'
+                  displayBrick.data: '<% "track context", { __index: 0, __thing: CTX.firstTodo } %>'
+                properties:
+                  displayBrick:
+                    useBrick:
+                      brick: div
+                      properties:
+                        style:
+                          white-space: pre-wrap
+                      transform:
+                        textContent: '#@{__index|add:1} @{__thing}'
+                  popoverContentStyle:
+                    width: 300
+                  popoverBrick:
+                    useBrick:
+                      brick: div
+                      transform:
+                        textContent: '<% `No.${DATA._index + 1} ${DATA._thing}` %>'
+
+        - brick: presentational-bricks.brick-descriptions
+          properties:
+            configProps:
+              column: 2
+            descriptionTitle: 基本信息
+            # dataSource: '<% "track context", { index: 0, thing: CTX.firstTodo } %>'
+            itemList:
+            - field: index
+              label: Index
+            - field: thing
+              label: Thing
+              useBrick:
+                brick: basic-bricks.popover-container
+                properties:
+                  data: '<% "track context", { _index: 0, _thing: CTX.firstTodo } %>'
+                  displayBrick:
+                    useBrick:
+                      brick: div
+                      properties:
+                        style:
+                          white-space: pre-wrap
+                        textContent: '#@{_index|add:1} @{_thing}'
+                  popoverContentStyle:
+                    width: 300
+                  popoverBrick:
+                    useBrick:
+                      brick: div
+                      properties:
+                        textContent: '<% `No.${DATA._index + 1} ${DATA._thing}` %>'
 
         - brick: basic-bricks.general-card
           slots:
