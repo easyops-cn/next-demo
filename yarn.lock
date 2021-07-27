@@ -2039,7 +2039,7 @@
   dependencies:
     babel-plugin-prismjs "^2.1.0"
 
-"@next-core/babel-runtime-helpers@^1.0.10", "@next-core/babel-runtime-helpers@^1.0.12":
+"@next-core/babel-runtime-helpers@^1.0.12":
   version "1.0.12"
   resolved "https://registry.nlark.com/@next-core/babel-runtime-helpers/download/@next-core/babel-runtime-helpers-1.0.12.tgz#9e5faf879face9d9bc0174603ee05c99637e7926"
   integrity sha1-nl+vh5+s6dm8AXRgPuBcmWN+eSY=
@@ -2090,17 +2090,17 @@
     react-i18next "^11.11.3"
     react-transition-group "^4.4.2"
 
-"@next-core/brick-http@^2.2.10", "@next-core/brick-http@^2.2.7":
+"@next-core/brick-http@^2.2.10":
   version "2.2.10"
   resolved "https://registry.nlark.com/@next-core/brick-http/download/@next-core/brick-http-2.2.10.tgz#622584e8a97c7543c12b188f8597cae51f4b2d1a"
   integrity sha1-YiWE6Kl8dUPBKxiPhZfK5R9LLRo=
 
-"@next-core/brick-icons@^2.17.1", "@next-core/brick-icons@^2.19.10":
+"@next-core/brick-icons@^2.19.10":
   version "2.19.10"
   resolved "https://registry.nlark.com/@next-core/brick-icons/download/@next-core/brick-icons-2.19.10.tgz#ef488b1e1b48aa9f70bba330e92e3be76155eecc"
   integrity sha1-70iLHhtIqp9wu6Mw6S4752FV7sw=
 
-"@next-core/brick-kit@^2.48.1", "@next-core/brick-kit@^2.60.1":
+"@next-core/brick-kit@^2.60.1":
   version "2.60.1"
   resolved "https://registry.nlark.com/@next-core/brick-kit/download/@next-core/brick-kit-2.60.1.tgz#9a0310ca3266054fdf6c61490711725b432e1817"
   integrity sha1-mgMQyjJmBU/fbGFJBxFyW0MuGBc=
@@ -2131,12 +2131,12 @@
     request "^2.88.2"
     request-promise-native "^1.0.9"
 
-"@next-core/brick-types@^2.26.1", "@next-core/brick-types@^2.34.1":
-  version "2.26.1"
-  resolved "https://registry.nlark.com/@next-core/brick-types/download/@next-core/brick-types-2.26.1.tgz#360e01961382e570e1848076035c52239a2f73a0"
-  integrity sha1-Ng4BlhOC5XDhhIB2A1xSI5ovc6A=
+"@next-core/brick-types@^2.34.1":
+  version "2.34.1"
+  resolved "https://registry.nlark.com/@next-core/brick-types/download/@next-core/brick-types-2.34.1.tgz#e995e609233ff37f613be4b52fcec9012e61b485"
+  integrity sha1-6ZXmCSM/839hO+S1L87JAS5htIU=
 
-"@next-core/brick-utils@^2.16.1", "@next-core/brick-utils@^2.21.1":
+"@next-core/brick-utils@^2.21.1":
   version "2.21.1"
   resolved "https://registry.nlark.com/@next-core/brick-utils/download/@next-core/brick-utils-2.21.1.tgz#9c76c87b5063baddfb8adcb4033e4f534e7d3362"
   integrity sha1-nHbIe1Bjut37ity0Az5PU059M2I=
@@ -2230,24 +2230,10 @@
     typescript "~4.3.5"
     yargs "^17.0.1"
 
-"@next-core/easyops-analytics@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.npm.taobao.org/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.1.8.tgz#c8cd83d184fa0cc244b3d46c3658af5e3ee194aa"
-  integrity sha1-yM2D0YT6DMJEs9RsNlivXj7hlKo=
-
 "@next-core/easyops-analytics@^0.2.0":
   version "0.2.0"
   resolved "https://registry.nlark.com/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.2.0.tgz#e1b72a2aa264441427d27fde8027a858d0638a55"
   integrity sha1-4bcqKqJkRBQn0n/egCeoWNBjilU=
-
-"@next-core/editor-bricks-helper@^0.19.9":
-  version "0.19.9"
-  resolved "https://registry.nlark.com/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.19.9.tgz#c2ef4f93be4266b0239f1c4c72601b4a2678062a"
-  integrity sha1-wu9Pk75CZrAjnxxMcmAbSiZ4Bio=
-  dependencies:
-    "@next-core/brick-types" "^2.26.1"
-    "@ungap/event-target" "^0.2.2"
-    classnames "^2.3.1"
 
 "@next-core/editor-bricks-helper@^0.30.13":
   version "0.30.13"
@@ -2266,7 +2252,7 @@
     "@typescript-eslint/parser" "^4.28.4"
     eslint-config-prettier "^8.3.0"
 
-"@next-core/fontawesome-library@^1.1.15", "@next-core/fontawesome-library@^1.1.18":
+"@next-core/fontawesome-library@^1.1.18":
   version "1.1.18"
   resolved "https://registry.nlark.com/@next-core/fontawesome-library/download/@next-core/fontawesome-library-1.1.18.tgz#4b07cd88c36a9d5ce57500ab1543c68376ad96a0"
   integrity sha1-SwfNiMNqnVzldQCrFUPGg3atlqA=
@@ -2275,7 +2261,7 @@
     "@fortawesome/free-brands-svg-icons" "^5.15.3"
     "@fortawesome/free-solid-svg-icons" "^5.15.3"
 
-"@next-core/illustrations@^0.3.10", "@next-core/illustrations@^0.3.7":
+"@next-core/illustrations@^0.3.10":
   version "0.3.10"
   resolved "https://registry.nlark.com/@next-core/illustrations/download/@next-core/illustrations-0.3.10.tgz#a3ef7ad79a90bf2dc8a00275e51cb75f6470b3cd"
   integrity sha1-o+9615qQvy3IoAJ15Ry3X2Rws80=
@@ -2684,10 +2670,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@size-limit/file@^4.11.0":
-  version "4.11.0"
-  resolved "https://registry.nlark.com/@size-limit/file/download/@size-limit/file-4.11.0.tgz#d453ea543e4f4f1ba5e8b3bd517d1f27759b747d"
-  integrity sha1-1FPqVD5PTxul6LO9UX0fJ3WbdH0=
+"@size-limit/file@^5.0.1":
+  version "5.0.2"
+  resolved "https://registry.nlark.com/@size-limit/file/download/@size-limit/file-5.0.2.tgz#6dc7f971eb85ca1e32adcbac88410684e5140035"
+  integrity sha1-bcf5ceuFyh4yrcusiEEGhOUUADU=
   dependencies:
     semver "7.3.5"
 
@@ -2794,17 +2780,17 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@testing-library/dom@^7.28.1":
-  version "7.29.4"
-  resolved "https://registry.npm.taobao.org/@testing-library/dom/download/@testing-library/dom-7.29.4.tgz#1647c2b478789621ead7a50614ad81ab5ae5b86c"
-  integrity sha1-FkfCtHh4liHq16UGFK2Bq1rluGw=
+"@testing-library/dom@^7.28.1", "@testing-library/dom@^7.31.2":
+  version "7.31.2"
+  resolved "https://registry.nlark.com/@testing-library/dom/download/@testing-library/dom-7.31.2.tgz?cache=0&sync_timestamp=1625148456196&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40testing-library%2Fdom%2Fdownload%2F%40testing-library%2Fdom-7.31.2.tgz#df361db38f5212b88555068ab8119f5d841a8c4a"
+  integrity sha1-3zYds49SEriFVQaKuBGfXYQajEo=
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
     "@types/aria-query" "^4.2.0"
     aria-query "^4.2.2"
     chalk "^4.1.0"
-    dom-accessibility-api "^0.5.4"
+    dom-accessibility-api "^0.5.6"
     lz-string "^1.4.4"
     pretty-format "^26.6.2"
 
@@ -2886,232 +2872,227 @@
   dependencies:
     "@types/node" "*"
 
-"@types/d3-array@*":
-  version "2.9.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-array/download/@types/d3-array-2.9.0.tgz#fb6c3d7d7640259e68771cd90cc5db5ac1a1a012"
-  integrity sha1-+2w9fXZAJZ5odxzZDMXbWsGhoBI=
+"@types/d3-array@^2":
+  version "2.12.3"
+  resolved "https://registry.nlark.com/@types/d3-array/download/@types/d3-array-2.12.3.tgz#8d16d51fb04ad5a5a8ebe14eb8263a579f1efdd1"
+  integrity sha1-jRbVH7BK1aWo6+FOuCY6V58e/dE=
 
-"@types/d3-axis@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-axis/download/@types/d3-axis-2.0.0.tgz#a3e7534d3c399c20ba42ec3093dd2a385659366e"
-  integrity sha1-o+dTTTw5nCC6Quwwk90qOFZZNm4=
+"@types/d3-axis@^2":
+  version "2.1.3"
+  resolved "https://registry.nlark.com/@types/d3-axis/download/@types/d3-axis-2.1.3.tgz#348cca877f6643030aa8c866d08ccae06821a0e2"
+  integrity sha1-NIzKh39mQwMKqMhm0IzK4GghoOI=
   dependencies:
-    "@types/d3-selection" "*"
+    "@types/d3-selection" "^2"
 
-"@types/d3-brush@*":
-  version "2.1.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-brush/download/@types/d3-brush-2.1.0.tgz#c51ad1ab93887b23be7637d2100540f1df0dac00"
-  integrity sha1-xRrRq5OIeyO+djfSEAVA8d8NrAA=
+"@types/d3-brush@^2":
+  version "2.1.2"
+  resolved "https://registry.nlark.com/@types/d3-brush/download/@types/d3-brush-2.1.2.tgz#c75890d1ccaef24fba1811daae3f896c1806418b"
+  integrity sha1-x1iQ0cyu8k+6GBHarj+JbBgGQYs=
   dependencies:
-    "@types/d3-selection" "*"
+    "@types/d3-selection" "^2"
 
-"@types/d3-chord@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-chord/download/@types/d3-chord-2.0.0.tgz#8d7085e2828418f2c5087e512f276559499bacfd"
-  integrity sha1-jXCF4oKEGPLFCH5RLydlWUmbrP0=
+"@types/d3-chord@^2":
+  version "2.0.3"
+  resolved "https://registry.nlark.com/@types/d3-chord/download/@types/d3-chord-2.0.3.tgz#3009b792b754da964d893b4269d1fe7757f21370"
+  integrity sha1-MAm3krdU2pZNiTtCadH+d1fyE3A=
 
-"@types/d3-color@*":
-  version "2.0.1"
-  resolved "https://registry.npm.taobao.org/@types/d3-color/download/@types/d3-color-2.0.1.tgz#570ea7f8b853461301804efa52bd790a640a26db"
-  integrity sha1-Vw6n+LhTRhMBgE76Ur15CmQKJts=
+"@types/d3-color@^2":
+  version "2.0.3"
+  resolved "https://registry.nlark.com/@types/d3-color/download/@types/d3-color-2.0.3.tgz#8bc4589073c80e33d126345542f588056511fe82"
+  integrity sha1-i8RYkHPIDjPRJjRVQvWIBWUR/oI=
 
-"@types/d3-contour@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-contour/download/@types/d3-contour-2.0.0.tgz#6e079f281b29a8df3fcbd3ec193f2cf1d0b4a584"
-  integrity sha1-bgefKBspqN8/y9PsGT8s8dC0pYQ=
+"@types/d3-contour@^2":
+  version "2.0.4"
+  resolved "https://registry.nlark.com/@types/d3-contour/download/@types/d3-contour-2.0.4.tgz#2fc5aa8949c1a1d12d183633603923025e3d14fd"
+  integrity sha1-L8WqiUnBodEtGDYzYDkjAl49FP0=
   dependencies:
-    "@types/d3-array" "*"
+    "@types/d3-array" "^2"
     "@types/geojson" "*"
 
-"@types/d3-delaunay@*":
-  version "5.3.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-delaunay/download/@types/d3-delaunay-5.3.0.tgz#416169bb5c67a510c87b55d092a404fcab49def3"
-  integrity sha1-QWFpu1xnpRDIe1XQkqQE/KtJ3vM=
+"@types/d3-delaunay@^5":
+  version "5.3.1"
+  resolved "https://registry.nlark.com/@types/d3-delaunay/download/@types/d3-delaunay-5.3.1.tgz#47ae03af6b78cb3aa39d3d3c42ca71daca488aef"
+  integrity sha1-R64Dr2t4yzqjnT08Qspx2spIiu8=
 
-"@types/d3-dispatch@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-dispatch/download/@types/d3-dispatch-2.0.0.tgz#1f8803041b73b81f2c751e026b7bb63dd5f24ce0"
-  integrity sha1-H4gDBBtzuB8sdR4Ca3u2PdXyTOA=
-
-"@types/d3-drag@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-drag/download/@types/d3-drag-2.0.0.tgz#ef66acc422576fbe10b8bd66af45a9fb8525199a"
-  integrity sha1-72asxCJXb74QuL1mr0Wp+4UlGZo=
-  dependencies:
-    "@types/d3-selection" "*"
-
-"@types/d3-dsv@*":
+"@types/d3-dispatch@^2":
   version "2.0.1"
-  resolved "https://registry.npm.taobao.org/@types/d3-dsv/download/@types/d3-dsv-2.0.1.tgz#44ce09b025cf365d27cbe11fc13cd10954369627"
-  integrity sha1-RM4JsCXPNl0ny+EfwTzRCVQ2lic=
+  resolved "https://registry.nlark.com/@types/d3-dispatch/download/@types/d3-dispatch-2.0.1.tgz#d7dc50f9b679996ccf70f3c79dbbf99505a93107"
+  integrity sha1-19xQ+bZ5mWzPcPPHnbv5lQWpMQc=
 
-"@types/d3-ease@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-ease/download/@types/d3-ease-2.0.0.tgz#798cbd9908d26cfe9f1a295a3a75164da9a3666e"
-  integrity sha1-eYy9mQjSbP6fGilaOnUWTamjZm4=
-
-"@types/d3-fetch@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-fetch/download/@types/d3-fetch-2.0.0.tgz#580846256ed0011b36a08ebb36924e0dff70e27e"
-  integrity sha1-WAhGJW7QARs2oI67NpJODf9w4n4=
+"@types/d3-drag@^2":
+  version "2.0.2"
+  resolved "https://registry.nlark.com/@types/d3-drag/download/@types/d3-drag-2.0.2.tgz#ed538d24456c839967a9ac7aab5e1b63b28bac7f"
+  integrity sha1-7VONJEVsg5lnqax6q14bY7KLrH8=
   dependencies:
-    "@types/d3-dsv" "*"
+    "@types/d3-selection" "^2"
 
-"@types/d3-force@*":
-  version "2.1.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-force/download/@types/d3-force-2.1.0.tgz#6a2210f04d02a0862c6b069de91bad904143e7b5"
-  integrity sha1-aiIQ8E0CoIYsawad6RutkEFD57U=
+"@types/d3-dsv@^2":
+  version "2.0.2"
+  resolved "https://registry.nlark.com/@types/d3-dsv/download/@types/d3-dsv-2.0.2.tgz#e10fa57576b50ded27e261db9984b9a92efec2f3"
+  integrity sha1-4Q+ldXa1De0n4mHbmYS5qS7+wvM=
 
-"@types/d3-format@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-format/download/@types/d3-format-2.0.0.tgz#607d261cb268f0a027f100575491031539a40ee6"
-  integrity sha1-YH0mHLJo8KAn8QBXVJEDFTmkDuY=
+"@types/d3-ease@^2":
+  version "2.0.1"
+  resolved "https://registry.nlark.com/@types/d3-ease/download/@types/d3-ease-2.0.1.tgz#be03d29980ed7359be1d5b93ff666f95ddcbcf48"
+  integrity sha1-vgPSmYDtc1m+HVuT/2Zvld3Lz0g=
 
-"@types/d3-geo@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-geo/download/@types/d3-geo-2.0.0.tgz#6f179512343c2d30e06acde190abfacf44b2d264"
-  integrity sha1-bxeVEjQ8LTDgas3hkKv6z0Sy0mQ=
+"@types/d3-fetch@^2":
+  version "2.0.2"
+  resolved "https://registry.nlark.com/@types/d3-fetch/download/@types/d3-fetch-2.0.2.tgz#628c65d14b3a0d02fe1b9c2f3098b81a47e370bc"
+  integrity sha1-Yoxl0Us6DQL+G5wvMJi4GkfjcLw=
+  dependencies:
+    "@types/d3-dsv" "^2"
+
+"@types/d3-force@^2":
+  version "2.1.4"
+  resolved "https://registry.nlark.com/@types/d3-force/download/@types/d3-force-2.1.4.tgz#98919b87db8a0ca5011d189c598d69251d20344d"
+  integrity sha1-mJGbh9uKDKUBHRicWY1pJR0gNE0=
+
+"@types/d3-format@^2":
+  version "2.0.2"
+  resolved "https://registry.nlark.com/@types/d3-format/download/@types/d3-format-2.0.2.tgz#97b2ac314430ae9f7768cc9efba8b23b63af82ef"
+  integrity sha1-l7KsMUQwrp93aMye+6iyO2Ovgu8=
+
+"@types/d3-geo@^2":
+  version "2.0.3"
+  resolved "https://registry.nlark.com/@types/d3-geo/download/@types/d3-geo-2.0.3.tgz#4af0f33c9e796aad6c3fc0dd8cadda9886d1fea9"
+  integrity sha1-SvDzPJ55aq1sP8DdjK3amIbR/qk=
   dependencies:
     "@types/geojson" "*"
 
-"@types/d3-hierarchy@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-hierarchy/download/@types/d3-hierarchy-2.0.0.tgz#92079d9dbcec1dfe2736fb050a8bf916e5850a1c"
-  integrity sha1-kgednbzsHf4nNvsFCov5FuWFChw=
+"@types/d3-hierarchy@^2":
+  version "2.0.2"
+  resolved "https://registry.nlark.com/@types/d3-hierarchy/download/@types/d3-hierarchy-2.0.2.tgz#afd09d509c36e8cd4907333556f8b591f23589e9"
+  integrity sha1-r9CdUJw26M1JBzM1Vvi1kfI1iek=
 
-"@types/d3-interpolate@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-interpolate/download/@types/d3-interpolate-2.0.0.tgz#325029216dc722c1c68c33ccda759f1209d35823"
-  integrity sha1-MlApIW3HIsHGjDPM2nWfEgnTWCM=
+"@types/d3-interpolate@^2":
+  version "2.0.2"
+  resolved "https://registry.nlark.com/@types/d3-interpolate/download/@types/d3-interpolate-2.0.2.tgz#78eddf7278b19e48e8652603045528d46897aba0"
+  integrity sha1-eO3fcnixnkjoZSYDBFUo1GiXq6A=
   dependencies:
-    "@types/d3-color" "*"
+    "@types/d3-color" "^2"
 
-"@types/d3-path@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-path/download/@types/d3-path-2.0.0.tgz#dcc7f5ecadf52b0c0c39f6c1def3733195e4b199"
-  integrity sha1-3Mf17K31KwwMOfbB3vNzMZXksZk=
+"@types/d3-path@^2":
+  version "2.0.1"
+  resolved "https://registry.nlark.com/@types/d3-path/download/@types/d3-path-2.0.1.tgz#ca03dfa8b94d8add97ad0cd97e96e2006b4763cb"
+  integrity sha1-ygPfqLlNit2XrQzZfpbiAGtHY8s=
 
-"@types/d3-path@^1":
-  version "1.0.9"
-  resolved "https://registry.npm.taobao.org/@types/d3-path/download/@types/d3-path-1.0.9.tgz#73526b150d14cd96e701597cbf346cfd1fd4a58c"
-  integrity sha1-c1JrFQ0UzZbnAVl8vzRs/R/UpYw=
+"@types/d3-polygon@^2":
+  version "2.0.1"
+  resolved "https://registry.nlark.com/@types/d3-polygon/download/@types/d3-polygon-2.0.1.tgz#c2056594f85b512bc2b4f741caddd4b5448bc115"
+  integrity sha1-wgVllPhbUSvCtPdByt3UtUSLwRU=
 
-"@types/d3-polygon@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-polygon/download/@types/d3-polygon-2.0.0.tgz#8b1df0a1358016e62c4961b01e8dc8e5ab4c64e5"
-  integrity sha1-ix3woTWAFuYsSWGwHo3I5atMZOU=
+"@types/d3-quadtree@^2":
+  version "2.0.2"
+  resolved "https://registry.nlark.com/@types/d3-quadtree/download/@types/d3-quadtree-2.0.2.tgz#e3cd92b4e05318f98b0a16e780ba99ce7b13eb77"
+  integrity sha1-482StOBTGPmLChbngLqZznsT63c=
 
-"@types/d3-quadtree@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-quadtree/download/@types/d3-quadtree-2.0.0.tgz#b17e953dc061e083966075bba0d3a9a259812150"
-  integrity sha1-sX6VPcBh4IOWYHW7oNOpolmBIVA=
+"@types/d3-random@^2":
+  version "2.2.1"
+  resolved "https://registry.nlark.com/@types/d3-random/download/@types/d3-random-2.2.1.tgz?cache=0&sync_timestamp=1625131699640&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fd3-random%2Fdownload%2F%40types%2Fd3-random-2.2.1.tgz#551edbb71cb317dea2cf9c76ebe059d311eefacb"
+  integrity sha1-VR7btxyzF96iz5x26+BZ0xHu+ss=
 
-"@types/d3-random@*":
-  version "2.2.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-random/download/@types/d3-random-2.2.0.tgz#fc44cabb966917459490b758f31f5359adeabe5b"
-  integrity sha1-/ETKu5ZpF0WUkLdY8x9TWa3qvls=
+"@types/d3-scale-chromatic@^2":
+  version "2.0.1"
+  resolved "https://registry.nlark.com/@types/d3-scale-chromatic/download/@types/d3-scale-chromatic-2.0.1.tgz#495cbbae7273e0d0ff564cdc19aa6d2b9928da83"
+  integrity sha1-SVy7rnJz4ND/VkzcGaptK5ko2oM=
 
-"@types/d3-scale-chromatic@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-scale-chromatic/download/@types/d3-scale-chromatic-2.0.0.tgz#8d4a6f07cbbf2a9f2a4bec9c9476c27ed76a96ea"
-  integrity sha1-jUpvB8u/Kp8qS+yclHbCftdqluo=
-
-"@types/d3-scale@*":
-  version "3.2.2"
-  resolved "https://registry.npm.taobao.org/@types/d3-scale/download/@types/d3-scale-3.2.2.tgz#5e28d0b1c599328aaec6094219f10a2570be6d74"
-  integrity sha1-XijQscWZMoquxglCGfEKJXC+bXQ=
+"@types/d3-scale@^3":
+  version "3.3.2"
+  resolved "https://registry.nlark.com/@types/d3-scale/download/@types/d3-scale-3.3.2.tgz#18c94e90f4f1c6b1ee14a70f14bfca2bd1c61d06"
+  integrity sha1-GMlOkPTxxrHuFKcPFL/KK9HGHQY=
   dependencies:
-    "@types/d3-time" "*"
+    "@types/d3-time" "^2"
 
-"@types/d3-selection@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-selection/download/@types/d3-selection-2.0.0.tgz#59df94a8e47ed1050a337d4ffb4d4d213aa590a8"
-  integrity sha1-Wd+UqOR+0QUKM31P+01NITqlkKg=
+"@types/d3-selection@^2":
+  version "2.0.1"
+  resolved "https://registry.nlark.com/@types/d3-selection/download/@types/d3-selection-2.0.1.tgz#bc2816c96faff285d204dda72b79734d4f37d583"
+  integrity sha1-vCgWyW+v8oXSBN2nK3lzTU831YM=
 
-"@types/d3-shape@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-shape/download/@types/d3-shape-2.0.0.tgz#61aa065726f3c2641aedc59c3603475ab11aeb2f"
-  integrity sha1-YaoGVybzwmQa7cWcNgNHWrEa6y8=
+"@types/d3-shape@^2":
+  version "2.1.3"
+  resolved "https://registry.nlark.com/@types/d3-shape/download/@types/d3-shape-2.1.3.tgz#35d397b9e687abaa0de82343b250b9897b8cacf3"
+  integrity sha1-NdOXueaHq6oN6CNDslC5iXuMrPM=
   dependencies:
-    "@types/d3-path" "^1"
+    "@types/d3-path" "^2"
 
-"@types/d3-time-format@*":
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-time-format/download/@types/d3-time-format-3.0.0.tgz#913e984362a59792dc8d8b122dd17625991eade2"
-  integrity sha1-kT6YQ2Kll5LcjYsSLdF2JZkereI=
+"@types/d3-time-format@^3":
+  version "3.0.1"
+  resolved "https://registry.nlark.com/@types/d3-time-format/download/@types/d3-time-format-3.0.1.tgz#1680fb6c41ab3a85db261ede296626668592246a"
+  integrity sha1-FoD7bEGrOoXbJh7eKWYmZoWSJGo=
 
-"@types/d3-time@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-time/download/@types/d3-time-2.0.0.tgz#831dd093db91f16b83ba980e194bb8e4bcef44d6"
-  integrity sha1-gx3Qk9uR8WuDupgOGUu45LzvRNY=
+"@types/d3-time@^2":
+  version "2.1.1"
+  resolved "https://registry.nlark.com/@types/d3-time/download/@types/d3-time-2.1.1.tgz#743fdc821c81f86537cbfece07093ac39b4bc342"
+  integrity sha1-dD/cghyB+GU3y/7OBwk6w5tLw0I=
 
-"@types/d3-timer@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-timer/download/@types/d3-timer-2.0.0.tgz#9901bb02af38798764674df17d66b07329705632"
-  integrity sha1-mQG7Aq84eYdkZ03xfWawcylwVjI=
+"@types/d3-timer@^2":
+  version "2.0.1"
+  resolved "https://registry.nlark.com/@types/d3-timer/download/@types/d3-timer-2.0.1.tgz#ffb6620d290624f3726aa362c0c8a4b44c8d7200"
+  integrity sha1-/7ZiDSkGJPNyaqNiwMiktEyNcgA=
 
-"@types/d3-transition@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-transition/download/@types/d3-transition-2.0.0.tgz#6f073f0b567c13b7a3dcd1d54214c89f48c5a873"
-  integrity sha1-bwc/C1Z8E7ej3NHVQhTIn0jFqHM=
+"@types/d3-transition@^2":
+  version "2.0.2"
+  resolved "https://registry.nlark.com/@types/d3-transition/download/@types/d3-transition-2.0.2.tgz#d5ba1c26a3daeb0c5527d573d44b4c5ca9fae027"
+  integrity sha1-1bocJqPa6wxVJ9Vz1EtMXKn64Cc=
   dependencies:
-    "@types/d3-selection" "*"
+    "@types/d3-selection" "^2"
 
-"@types/d3-zoom@*":
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/@types/d3-zoom/download/@types/d3-zoom-2.0.0.tgz#ef8b87464e8ebc7c66b70f6383d1ae841e78e7fc"
-  integrity sha1-74uHRk6OvHxmtw9jg9GuhB545/w=
+"@types/d3-zoom@^2":
+  version "2.0.3"
+  resolved "https://registry.nlark.com/@types/d3-zoom/download/@types/d3-zoom-2.0.3.tgz#9eef8763600fa8be11b8cb0ed9144a395df6dffb"
+  integrity sha1-nu+HY2APqL4RuMsO2RRKOV323/s=
   dependencies:
-    "@types/d3-interpolate" "*"
-    "@types/d3-selection" "*"
+    "@types/d3-interpolate" "^2"
+    "@types/d3-selection" "^2"
 
-"@types/d3@^6.7.0":
-  version "6.7.0"
-  resolved "https://registry.nlark.com/@types/d3/download/@types/d3-6.7.0.tgz#e801778cfcf3b5e52ad4dae0d21263b2511d314f"
-  integrity sha1-6AF3jPzzteUq1Nrg0hJjslEdMU8=
+"@types/d3@^6.7.5":
+  version "6.7.5"
+  resolved "https://registry.nlark.com/@types/d3/download/@types/d3-6.7.5.tgz#6ae8034ea21db10fa3e31db1f670c5887d91d8a3"
+  integrity sha1-augDTqIdsQ+j4x2x9nDFiH2R2KM=
   dependencies:
-    "@types/d3-array" "*"
-    "@types/d3-axis" "*"
-    "@types/d3-brush" "*"
-    "@types/d3-chord" "*"
-    "@types/d3-color" "*"
-    "@types/d3-contour" "*"
-    "@types/d3-delaunay" "*"
-    "@types/d3-dispatch" "*"
-    "@types/d3-drag" "*"
-    "@types/d3-dsv" "*"
-    "@types/d3-ease" "*"
-    "@types/d3-fetch" "*"
-    "@types/d3-force" "*"
-    "@types/d3-format" "*"
-    "@types/d3-geo" "*"
-    "@types/d3-hierarchy" "*"
-    "@types/d3-interpolate" "*"
-    "@types/d3-path" "*"
-    "@types/d3-polygon" "*"
-    "@types/d3-quadtree" "*"
-    "@types/d3-random" "*"
-    "@types/d3-scale" "*"
-    "@types/d3-scale-chromatic" "*"
-    "@types/d3-selection" "*"
-    "@types/d3-shape" "*"
-    "@types/d3-time" "*"
-    "@types/d3-time-format" "*"
-    "@types/d3-timer" "*"
-    "@types/d3-transition" "*"
-    "@types/d3-zoom" "*"
+    "@types/d3-array" "^2"
+    "@types/d3-axis" "^2"
+    "@types/d3-brush" "^2"
+    "@types/d3-chord" "^2"
+    "@types/d3-color" "^2"
+    "@types/d3-contour" "^2"
+    "@types/d3-delaunay" "^5"
+    "@types/d3-dispatch" "^2"
+    "@types/d3-drag" "^2"
+    "@types/d3-dsv" "^2"
+    "@types/d3-ease" "^2"
+    "@types/d3-fetch" "^2"
+    "@types/d3-force" "^2"
+    "@types/d3-format" "^2"
+    "@types/d3-geo" "^2"
+    "@types/d3-hierarchy" "^2"
+    "@types/d3-interpolate" "^2"
+    "@types/d3-path" "^2"
+    "@types/d3-polygon" "^2"
+    "@types/d3-quadtree" "^2"
+    "@types/d3-random" "^2"
+    "@types/d3-scale" "^3"
+    "@types/d3-scale-chromatic" "^2"
+    "@types/d3-selection" "^2"
+    "@types/d3-shape" "^2"
+    "@types/d3-time" "^2"
+    "@types/d3-time-format" "^3"
+    "@types/d3-timer" "^2"
+    "@types/d3-transition" "^2"
+    "@types/d3-zoom" "^2"
 
-"@types/dompurify@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.nlark.com/@types/dompurify/download/@types/dompurify-2.2.2.tgz#2c6692580eb7c653785ca3b2c1348847ea8b995d"
-  integrity sha1-LGaSWA63xlN4XKOywTSIR+qLmV0=
+"@types/dompurify@^2.2.3":
+  version "2.2.3"
+  resolved "https://registry.nlark.com/@types/dompurify/download/@types/dompurify-2.2.3.tgz#6e89677a07902ac1b6821c345f34bd85da239b08"
+  integrity sha1-bolnegeQKsG2ghw0XzS9hdojmwg=
   dependencies:
     "@types/trusted-types" "*"
 
-"@types/echarts@^4.9.7":
-  version "4.9.7"
-  resolved "https://registry.npm.taobao.org/@types/echarts/download/@types/echarts-4.9.7.tgz#4437fb503111f5b1ed7961e7b95c7ed09a4844a3"
-  integrity sha1-RDf7UDER9bHteWHnuVx+0JpIRKM=
+"@types/echarts@^4.9.9":
+  version "4.9.9"
+  resolved "https://registry.nlark.com/@types/echarts/download/@types/echarts-4.9.9.tgz#9c203acc5f700fe46fcf6bc1ec748fcb128d8ed0"
+  integrity sha1-nCA6zF9wD+Rvz2vB7HSPyxKNjtA=
   dependencies:
     "@types/zrender" "*"
 
@@ -3122,10 +3103,10 @@
   dependencies:
     "@types/enzyme" "*"
 
-"@types/enzyme@*", "@types/enzyme@^3.10.8":
-  version "3.10.8"
-  resolved "https://registry.npm.taobao.org/@types/enzyme/download/@types/enzyme-3.10.8.tgz#ad7ac9d3af3de6fd0673773123fafbc63db50d42"
-  integrity sha1-rXrJ06895v0Gc3cxI/r7xj21DUI=
+"@types/enzyme@*", "@types/enzyme@^3.10.9":
+  version "3.10.9"
+  resolved "https://registry.nlark.com/@types/enzyme/download/@types/enzyme-3.10.9.tgz#b2d7c7429a37d994c156b6f361e83f271a60c8aa"
+  integrity sha1-stfHQpo32ZTBVrbzYeg/JxpgyKo=
   dependencies:
     "@types/cheerio" "*"
     "@types/react" "*"
@@ -3160,10 +3141,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/history@^4.7.8":
-  version "4.7.8"
-  resolved "https://registry.npm.taobao.org/@types/history/download/@types/history-4.7.8.tgz#49348387983075705fe8f4e02fb67f7daaec4934"
-  integrity sha1-STSDh5gwdXBf6PTgL7Z/farsSTQ=
+"@types/history@^4.7.9":
+  version "4.7.9"
+  resolved "https://registry.nlark.com/@types/history/download/@types/history-4.7.9.tgz#1cfb6d60ef3822c589f18e70f8b12f9a28ce8724"
+  integrity sha1-HPttYO84IsWJ8Y5w+LEvmijOhyQ=
 
 "@types/hoist-non-react-statics@^3.3.1":
   version "3.3.1"
@@ -3199,33 +3180,33 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*", "@types/jest@^26.0.23":
-  version "26.0.23"
-  resolved "https://registry.nlark.com/@types/jest/download/@types/jest-26.0.23.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fjest%2Fdownload%2F%40types%2Fjest-26.0.23.tgz#a1b7eab3c503b80451d019efb588ec63522ee4e7"
-  integrity sha1-obfqs8UDuARR0BnvtYjsY1Iu5Oc=
+"@types/jest@*", "@types/jest@^26.0.24":
+  version "26.0.24"
+  resolved "https://registry.nlark.com/@types/jest/download/@types/jest-26.0.24.tgz?cache=0&sync_timestamp=1625608013439&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fjest%2Fdownload%2F%40types%2Fjest-26.0.24.tgz#943d11976b16739185913a1936e0de0c4a7d595a"
+  integrity sha1-lD0Rl2sWc5GFkToZNuDeDEp9WVo=
   dependencies:
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
 
-"@types/js-yaml@^3.12.6":
-  version "3.12.6"
-  resolved "https://registry.npm.taobao.org/@types/js-yaml/download/@types/js-yaml-3.12.6.tgz#7f10c926aa41e189a2755c4c7fcf8e4573bd7ac1"
-  integrity sha1-fxDJJqpB4YmidVxMf8+ORXO9esE=
+"@types/js-yaml@^3.12.7":
+  version "3.12.7"
+  resolved "https://registry.nlark.com/@types/js-yaml/download/@types/js-yaml-3.12.7.tgz#330c5d97a3500e9c903210d6e49f02964af04a0e"
+  integrity sha1-Mwxdl6NQDpyQMhDW5J8ClkrwSg4=
 
 "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.6", "@types/json-schema@^7.0.7":
   version "7.0.8"
   resolved "https://registry.nlark.com/@types/json-schema/download/@types/json-schema-7.0.8.tgz?cache=0&sync_timestamp=1625607854960&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
   integrity sha1-7fG/Hb9OBEE8qOWxezt9fVS1mBg=
 
-"@types/lodash@^4.14.170":
-  version "4.14.170"
-  resolved "https://registry.nlark.com/@types/lodash/download/@types/lodash-4.14.170.tgz?cache=0&sync_timestamp=1621593291475&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Flodash%2Fdownload%2F%40types%2Flodash-4.14.170.tgz#0d67711d4bf7f4ca5147e9091b847479b87925d6"
-  integrity sha1-DWdxHUv39MpRR+kJG4R0ebh5JdY=
+"@types/lodash@^4.14.171":
+  version "4.14.171"
+  resolved "https://registry.nlark.com/@types/lodash/download/@types/lodash-4.14.171.tgz?cache=0&sync_timestamp=1625609529722&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Flodash%2Fdownload%2F%40types%2Flodash-4.14.171.tgz#f01b3a5fe3499e34b622c362a46a609fdb23573b"
+  integrity sha1-8Bs6X+NJnjS2IsNipGpgn9sjVzs=
 
-"@types/lolex@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.npm.taobao.org/@types/lolex/download/@types/lolex-5.1.0.tgz#11b4c4756c007306d0feeaf2f08f88350c635d2b"
-  integrity sha1-EbTEdWwAcwbQ/ury8I+INQxjXSs=
+"@types/lolex@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.nlark.com/@types/lolex/download/@types/lolex-5.1.1.tgz#86799c00c8d0b75e4e45dcb6befb79932e9ea3f6"
+  integrity sha1-hnmcAMjQt15ORdy2vvt5ky6eo/Y=
 
 "@types/minimatch@*", "@types/minimatch@^3.0.3":
   version "3.0.3"
@@ -3242,10 +3223,10 @@
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.22.tgz#0d29f382472c4ccf3bd96ff0ce47daf5b7b84b18"
   integrity sha1-DSnzgkcsTM872W/wzkfa9be4Sxg=
 
-"@types/node@^12.20.13":
-  version "12.20.13"
-  resolved "https://registry.nlark.com/@types/node/download/@types/node-12.20.13.tgz?cache=0&sync_timestamp=1621901346657&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.20.13.tgz#e743bae112bd779ac9650f907197dd2caa7f0364"
-  integrity sha1-50O64RK9d5rJZQ+QcZfdLKp/A2Q=
+"@types/node@^12.20.16":
+  version "12.20.17"
+  resolved "https://registry.nlark.com/@types/node/download/@types/node-12.20.17.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.20.17.tgz#ffd44c2801fc527a6fe6e86bc9b900261df1c87e"
+  integrity sha1-/9RMKAH8Unpv5uhrybkAJh3xyH4=
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -3286,17 +3267,17 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-transition-group@^4.4.1":
-  version "4.4.1"
-  resolved "https://registry.npm.taobao.org/@types/react-transition-group/download/@types/react-transition-group-4.4.1.tgz#e1a3cb278df7f47f17b5082b1b3da17170bd44b1"
-  integrity sha1-4aPLJ4339H8XtQgrGz2hcXC9RLE=
+"@types/react-transition-group@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.nlark.com/@types/react-transition-group/download/@types/react-transition-group-4.4.2.tgz#38890fd9db68bf1f2252b99a942998dc7877c5b3"
+  integrity sha1-OIkP2dtovx8iUrmalCmY3Hh3xbM=
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.14.8":
-  version "16.14.8"
-  resolved "https://registry.nlark.com/@types/react/download/@types/react-16.14.8.tgz#4aee3ab004cb98451917c9b7ada3c7d7e52db3fe"
-  integrity sha1-Su46sATLmEUZF8m3raPH1+Uts/4=
+"@types/react@*", "@types/react@^16.14.11":
+  version "16.14.11"
+  resolved "https://registry.nlark.com/@types/react/download/@types/react-16.14.11.tgz?cache=0&sync_timestamp=1627125322194&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Freact%2Fdownload%2F%40types%2Freact-16.14.11.tgz#992a0cd4b66b9f27315042b5d96e976717368f04"
+  integrity sha1-mSoM1LZrnycxUEK12W6XZxc2jwQ=
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3462,7 +3443,7 @@
     "@typescript-eslint/types" "4.28.5"
     eslint-visitor-keys "^2.0.0"
 
-"@ungap/event-target@^0.2.2", "@ungap/event-target@^0.2.3":
+"@ungap/event-target@^0.2.3":
   version "0.2.3"
   resolved "https://registry.nlark.com/@ungap/event-target/download/@ungap/event-target-0.2.3.tgz#be682c681126dca2371c4e1a1721f8e8bb400905"
   integrity sha1-vmgsaBEm3KI3HE4aFyH46LtACQU=
@@ -6099,7 +6080,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dom-accessibility-api@^0.5.4, dom-accessibility-api@^0.5.6:
+dom-accessibility-api@^0.5.6:
   version "0.5.6"
   resolved "https://registry.nlark.com/dom-accessibility-api/download/dom-accessibility-api-0.5.6.tgz?cache=0&sync_timestamp=1622713071855&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdom-accessibility-api%2Fdownload%2Fdom-accessibility-api-0.5.6.tgz#3f5d43b52c7a3bd68b5fb63fa47b4e4c1fdf65a9"
   integrity sha1-P11DtSx6O9aLX7Y/pHtOTB/fZak=
@@ -7758,7 +7739,7 @@ husky@^6.0.0:
   resolved "https://registry.npm.taobao.org/husky/download/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
   integrity sha1-gQ8RhprfUWBMMupXftvDd9f5MZ4=
 
-i18next@^20.3.0, i18next@^20.3.4:
+i18next@^20.3.4:
   version "20.3.5"
   resolved "https://registry.nlark.com/i18next/download/i18next-20.3.5.tgz#14308b79a3f1cafb24fdcd8e182d3673baf1e979"
   integrity sha1-FDCLeaPxyvsk/c2OGC02c7rx6Xk=
@@ -12384,7 +12365,7 @@ react-dom@^16.14.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-i18next@^11.11.3, react-i18next@^11.9.0:
+react-i18next@^11.11.3:
   version "11.11.4"
   resolved "https://registry.nlark.com/react-i18next/download/react-i18next-11.11.4.tgz#f6f9a1c827e7a5271377de2bf14db04cb1c9e5ce"
   integrity sha1-9vmhyCfnpScTd94r8U2wTLHJ5c4=
@@ -12417,7 +12398,7 @@ react-test-renderer@^16.0.0-0:
     react-is "^16.8.6"
     scheduler "^0.19.1"
 
-react-transition-group@^4.4.1, react-transition-group@^4.4.2:
+react-transition-group@^4.4.2:
   version "4.4.2"
   resolved "https://registry.nlark.com/react-transition-group/download/react-transition-group-4.4.2.tgz#8b59a56f09ced7b55cbd53c36768b922890d5470"
   integrity sha1-i1mlbwnO17VcvVPDZ2i5IokNVHA=
