@@ -30,15 +30,44 @@ routes:
             content:
               type: bricks
               bricks:
-              - brick: tpl-list-container
+              # - brick: tpl-list-container
+              #   properties:
+              #     data: '<% "track context", CTX.todoList.map((thing, index) => ({ thing, index })) %>'
+              #   events:
+              #     todo.dblclick:
+              #     - action: context.replace
+              #       args:
+              #       - todoList
+              #       - '<% CTX.todoList.filter((_, i) => i !== EVENT.detail.index) %>'
+              - brick: basic-bricks.list-container
                 properties:
                   data: '<% "track context", CTX.todoList.map((thing, index) => ({ thing, index })) %>'
-                events:
-                  todo.dblclick:
-                  - action: context.replace
-                    args:
-                    - todoList
-                    - '<% CTX.todoList.filter((_, i) => i !== EVENT.detail.index) %>'
+                  useBrick:
+                    brick: div
+                    transform:
+                      textContent: '<% `#${DATA.index + 1} ${DATA.thing}` %>'
+                    events:
+                      dblclick:
+                      - if: '<% CTX.todoList.length === 1 %>'
+                        action: console.log
+                        args:
+                        - 'before: todoList.length === 1'
+                      - if: '<% CTX.todoList.length > 1 %>'
+                        action: console.log
+                        args:
+                        - 'before: todoList.length > 1'
+                      - action: context.replace
+                        args:
+                        - todoList
+                        - '<% CTX.todoList.filter((_, i) => i !== DATA.index) %>'
+                      - if: '<% CTX.todoList.length === 1 %>'
+                        action: console.log
+                        args:
+                        - 'after: todoList.length === 1'
+                      - if: '<% CTX.todoList.length > 1 %>'
+                        action: console.log
+                        args:
+                        - 'after: todoList.length > 1'
               - brick: div
                 properties:
                   textContent: 'Tips: double click a todo to mark it as DONE ✔️'
