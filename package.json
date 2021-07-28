@@ -102,6 +102,6 @@
     "@testing-library/dom": "^7.31.2"
   },
   "easyops": {
-    "dev-dependencies": "1.8.71"
+    "dev-dependencies": "1.8.72"
   }
 }
