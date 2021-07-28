@@ -2046,10 +2046,10 @@
   dependencies:
     "@babel/runtime" "^7.14.8"
 
-"@next-core/brick-container@^2.28.2":
-  version "2.28.2"
-  resolved "https://registry.nlark.com/@next-core/brick-container/download/@next-core/brick-container-2.28.2.tgz#1292e8896fdcceeb4587b80da7adb26de54fdb7e"
-  integrity sha1-EpLoiW/czutFh7gNp62ybeVP234=
+"@next-core/brick-container@^2.28.3":
+  version "2.28.3"
+  resolved "https://registry.nlark.com/@next-core/brick-container/download/@next-core/brick-container-2.28.3.tgz#f277d5c94fabab6eaee357e473a0ffbf96b1d8be"
+  integrity sha1-8nfVyU+rq26u41fkc6D/v5ax2L4=
   dependencies:
     "@next-core/repo-config" "^0.2.1"
     body-parser "^1.19.0"
@@ -2181,15 +2181,15 @@
   resolved "https://registry.nlark.com/@next-core/custom-antd-styles/download/@next-core/custom-antd-styles-1.8.9.tgz#7590c0a79cc7d92cc59684e90fa9110d0a85331b"
   integrity sha1-dZDAp5zH2SzFloTpD6kRDQqFMxs=
 
-"@next-core/dev-dependencies@^1.8.71":
-  version "1.8.71"
-  resolved "https://registry.nlark.com/@next-core/dev-dependencies/download/@next-core/dev-dependencies-1.8.71.tgz#6646b82fd95ea5eb479f430d5a0b5bd169504a1b"
-  integrity sha1-Zka4L9lepetHn0MNWgtb0WlQShs=
+"@next-core/dev-dependencies@^1.8.72":
+  version "1.8.72"
+  resolved "https://registry.nlark.com/@next-core/dev-dependencies/download/@next-core/dev-dependencies-1.8.72.tgz#1552e9164af667b99f1e38c3afc8f5ae1df920df"
+  integrity sha1-FVLpFkr2Z7mfHjjDr8j1rh35IN8=
   dependencies:
     "@babel/core" "^7.14.8"
     "@next-core/babel-preset-next" "^0.7.3"
     "@next-core/babel-preset-prismjs" "^1.0.7"
-    "@next-core/brick-container" "^2.28.2"
+    "@next-core/brick-container" "^2.28.3"
     "@next-core/brick-dll" "^2.18.3"
     "@next-core/brick-scripts" "^2.5.2"
     "@next-core/browserslist-config-next" "^0.1.3"
