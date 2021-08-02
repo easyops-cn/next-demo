@@ -2109,7 +2109,7 @@
   resolved "https://registry.nlark.com/@next-core/brick-http/download/@next-core/brick-http-2.2.10.tgz#622584e8a97c7543c12b188f8597cae51f4b2d1a"
   integrity sha1-YiWE6Kl8dUPBKxiPhZfK5R9LLRo=
 
-"@next-core/brick-icons@^2.19.11", "@next-core/brick-icons@^2.19.12":
+"@next-core/brick-icons@^2.19.12":
   version "2.19.12"
   resolved "https://registry.nlark.com/@next-core/brick-icons/download/@next-core/brick-icons-2.19.12.tgz#2e06045d123843dddfbedc701166b3c9eb0f278e"
   integrity sha1-LgYEXRI4Q93fvtxwEWazyesPJ44=
