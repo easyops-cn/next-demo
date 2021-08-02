@@ -33,19 +33,20 @@
   "devDependencies": {
     "@ant-design/compatible": "^1.0.8",
     "@ant-design/icons": "^4.5.0",
+    "@babel/runtime": "^7.14.8",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@next-bricks/basic-bricks": "^1.106.4",
     "@next-bricks/forms": "^1.162.1",
     "@next-bricks/general-auth": "^1.4.12",
     "@next-core/babel-runtime-helpers": "^1.0.12",
     "@next-core/brick-http": "^2.2.10",
-    "@next-core/brick-icons": "^2.19.10",
-    "@next-core/brick-kit": "^2.60.2",
+    "@next-core/brick-icons": "^2.19.11",
+    "@next-core/brick-kit": "^2.63.0",
     "@next-core/brick-types": "^2.34.1",
-    "@next-core/brick-utils": "^2.21.1",
-    "@next-core/dev-dependencies": "^1.8.72",
+    "@next-core/brick-utils": "^2.22.0",
+    "@next-core/dev-dependencies": "^1.9.2",
     "@next-core/easyops-analytics": "^0.2.0",
-    "@next-core/editor-bricks-helper": "^0.30.14",
+    "@next-core/editor-bricks-helper": "^0.30.18",
     "@next-core/fontawesome-library": "^1.1.18",
     "@next-core/illustrations": "^0.3.10",
     "@next-micro-apps/general-auth": "^1.0.9",
@@ -102,6 +103,6 @@
     "@testing-library/dom": "^7.31.2"
   },
   "easyops": {
-    "dev-dependencies": "1.8.72"
+    "dev-dependencies": "1.9.2"
   }
 }
