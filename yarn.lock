@@ -2109,12 +2109,12 @@
   resolved "https://registry.nlark.com/@next-core/brick-http/download/@next-core/brick-http-2.2.10.tgz#622584e8a97c7543c12b188f8597cae51f4b2d1a"
   integrity sha1-YiWE6Kl8dUPBKxiPhZfK5R9LLRo=
 
-"@next-core/brick-icons@^2.19.12", "@next-core/brick-icons@^2.19.15":
+"@next-core/brick-icons@^2.19.15":
   version "2.19.15"
   resolved "https://registry.nlark.com/@next-core/brick-icons/download/@next-core/brick-icons-2.19.15.tgz#42966a263eed5bfc4e135bf597c3f70d329d4276"
   integrity sha1-QpZqJj7tW/xOE1v1l8P3DTKdQnY=
 
-"@next-core/brick-kit@^2.63.0", "@next-core/brick-kit@^2.63.1":
+"@next-core/brick-kit@^2.63.1":
   version "2.63.1"
   resolved "https://registry.nlark.com/@next-core/brick-kit/download/@next-core/brick-kit-2.63.1.tgz#7901f97f68d2eee14e4203b37bb83e3a32db7422"
   integrity sha1-eQH5f2jS7uFOQgOze7g+OjLbdCI=
@@ -2250,7 +2250,7 @@
   resolved "https://registry.nlark.com/@next-core/easyops-analytics/download/@next-core/easyops-analytics-0.2.0.tgz#e1b72a2aa264441427d27fde8027a858d0638a55"
   integrity sha1-4bcqKqJkRBQn0n/egCeoWNBjilU=
 
-"@next-core/editor-bricks-helper@^0.30.18", "@next-core/editor-bricks-helper@^0.30.19":
+"@next-core/editor-bricks-helper@^0.30.19":
   version "0.30.19"
   resolved "https://registry.nlark.com/@next-core/editor-bricks-helper/download/@next-core/editor-bricks-helper-0.30.19.tgz#4ca0c3d2204f6241d7e9391ca2718f55cbb1af9c"
   integrity sha1-TKDD0iBPYkHX6TkconGPVcuxr5w=

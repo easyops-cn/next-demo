@@ -40,13 +40,13 @@
     "@next-bricks/general-auth": "^1.4.12",
     "@next-core/babel-runtime-helpers": "^1.0.12",
     "@next-core/brick-http": "^2.2.10",
-    "@next-core/brick-icons": "^2.19.12",
-    "@next-core/brick-kit": "^2.63.0",
+    "@next-core/brick-icons": "^2.19.15",
+    "@next-core/brick-kit": "^2.63.1",
     "@next-core/brick-types": "^2.34.1",
     "@next-core/brick-utils": "^2.22.0",
     "@next-core/dev-dependencies": "^1.9.9",
     "@next-core/easyops-analytics": "^0.2.0",
-    "@next-core/editor-bricks-helper": "^0.30.18",
+    "@next-core/editor-bricks-helper": "^0.30.19",
     "@next-core/fontawesome-library": "^1.1.18",
     "@next-core/illustrations": "^0.3.10",
     "@next-micro-apps/general-auth": "^1.0.9",
@@ -103,6 +103,6 @@
     "@testing-library/dom": "^7.31.2"
   },
   "easyops": {
-    "dev-dependencies": "1.9.3"
+    "dev-dependencies": "1.9.9"
   }
 }
