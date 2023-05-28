@@ -37,7 +37,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@next-bricks/basic-bricks": "^1.106.4",
     "@next-bricks/forms": "^1.162.1",
-    "@next-bricks/general-auth": "^1.4.12",
+    "@next-bricks/general-auth": "^1.22.0",
     "@next-core/babel-runtime-helpers": "^1.0.12",
     "@next-core/brick-http": "^2.2.10",
     "@next-core/brick-icons": "^2.19.12",
