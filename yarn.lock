@@ -2013,10 +2013,10 @@
     npmlog "^4.1.2"
     write-file-atomic "^3.0.3"
 
-"@next-bricks/basic-bricks@^1.106.4":
-  version "1.106.4"
-  resolved "https://registry.npm.taobao.org/@next-bricks/basic-bricks/download/@next-bricks/basic-bricks-1.106.4.tgz#5aa116395bb9f3bb324a1a06f1799f05a4dc0543"
-  integrity sha1-WqEWOVu587syShoG8XmfBaTcBUM=
+"@next-bricks/basic-bricks@^1.234.0":
+  version "1.234.0"
+  resolved "https://registry.npmmirror.com/@next-bricks/basic-bricks/-/basic-bricks-1.234.0.tgz#6477d72e6bbe8ec1078d8065c5b3d1d815c1cd72"
+  integrity sha512-LGeeVDnFR4z2n9hu9VugZtwif3xyKnZwOjVkClC0r53QLfNs0KwzZte+AaqoRphlylJuIxcQ5094oJQ3d0uS1Q==
 
 "@next-bricks/forms@^1.162.1":
   version "1.162.1"
